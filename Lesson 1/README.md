@@ -20,3 +20,10 @@
 
   1. Дать краткий обзор основному инструментарию в анализ данных и статистике на Python 
   2. Познакомить с одним из широко применяемых методов в современной статистике
+
+**Источники**
+1. https://www.youtube.com/watch?v=S3WAjnBC6CI&list=PLQJ7ptkRY-xbHLLI66KdscKp_FJt0FsIi
+2. https://www.youtube.com/watch?v=wIPq_OoYcjc
+3. https://www.youtube.com/watch?v=1cJzSioPAjM
+5. https://www.youtube.com/watch?v=GV0FTiO9Z2w&list=PLQJ7ptkRY-xbHLLI66KdscKp_FJt0FsIi&index=4
+6. https://habr.com/ru/companies/X5Tech/articles/679842/
