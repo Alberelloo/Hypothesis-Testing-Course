@@ -20,6 +20,6 @@
 5. [Краткий обзор статья о методе в п. 1](https://towardsdatascience.com/how-to-optimize-your-switchback-a-b-test-configuration-791a28bee678/)
 
 **Доп источники**
-* [EXPF об оченке с помощью MLM](https://medium.com/statistics-experiments/switchback-тестирование-как-бороться-с-социальными-эффектами-в-a-b-тестах-39aab4f87cf7)
+* [EXPF об оценке с помощью MLM](https://medium.com/statistics-experiments/switchback-тестирование-как-бороться-с-социальными-эффектами-в-a-b-тестах-39aab4f87cf7)
 * [Репозиторий с пайплайном для switchback тестирования](https://github.com/omar-elmaria/switchback_test_dag)
 
