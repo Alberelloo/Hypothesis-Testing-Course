@@ -42,3 +42,4 @@
 16. [Краткий обзор по методоам ускорения A/B тестов](https://www.youtube.com/watch?v=4_J5pvdG35U&t=409s)
 17. [Кейс предиктивного CUPED](https://www.youtube.com/watch?v=2ZhSNahXCl8)
 18. [Обзор основных методов снижения дисперсии](https://medium.com/data-science/online-experiments-tricks-variance-reduction-291b6032dcd7)
+19. [Проецсс организации и проведения тестов в компании](https://habr.com/ru/companies/oleg-bunin/articles/836056/)
