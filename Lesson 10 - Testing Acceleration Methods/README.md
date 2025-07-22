@@ -6,14 +6,14 @@
   * Концепция идеального тестирования: уровень доказательности и Рандомизированные Контролируемые Испытания (RCT)
   * Пайплайн тестирования гипотез
   * Виды тестов
-   * Superiority / Non-Inferiority / Equivalence / Futility
-   * Односторонние / Двусторонние
-   * Fixed-horizon design / Sequential design / Adaptive design
+    * Superiority / Non-Inferiority / Equivalence / Futility
+    * Односторонние / Двусторонние
+    * Fixed-horizon design / Sequential design / Adaptive design
   * Формализация A/B тестирования
-   * Типы метрик
-   * MDE & sample size calculation
-   * Матрица ошибок (Confusion matrix), ошибки 1 и 2 рода
-   * Статистические критерии
+    * Типы метрик
+    * MDE & sample size calculation
+    * Матрица ошибок (Confusion matrix), ошибки 1 и 2 рода
+    * Статистические критерии
   * Проверка корректности критерия
   * Основные проблемы тестов
     
