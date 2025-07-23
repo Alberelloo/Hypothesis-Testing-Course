@@ -15,8 +15,10 @@
       * Success / Guardrail / Deterioration / Quaility
       * User-level Метрики vs Ratio Метрики  -> дельта метод
       * прокси-метрики
+    * Матрица ошибок (Confusion matrix), ошибки 1 и 2 рода 
+      * Матрица ошибок
+      * Ошибки 1 и 2 рода
     * MDE & sample size calculation
-    * Матрица ошибок (Confusion matrix), ошибки 1 и 2 рода
     * Статистические критерии
   * Проверка корректности критерия
   * Основные проблемы тестов
@@ -36,6 +38,6 @@
 5. [Прокси метрики](https://www.youtube.com/watch?v=fSRKOr3L6AI) 
 6. [Типы тестов + типы метрик по целям](https://arxiv.org/pdf/2402.11609)  (глава 2)
 7. [Метрики отношений и дельта метод](https://habr.com/ru/companies/X5Tech/articles/740476/)
-8. [ ]( )
-9. [ ]( )
+8. [Матрица ошибок](https://en.wikipedia.org/wiki/Confusion_matrix#cite_ref-22)
+9. [Ошибки 1 и 2 рода](https://ru.wikipedia.org/wiki/Ошибки_первого_и_второго_рода)
    
