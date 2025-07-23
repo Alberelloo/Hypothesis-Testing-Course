@@ -3,41 +3,44 @@
 **Название** : Методы ускорения A/B тестов
 
 **Темы** : 
-  * Концепция идеального тестирования: уровень доказательности и Рандомизированные Контролируемые Испытания (RCT)
-  * Пайплайн тестирования гипотез
-  * Виды тестов
-    * Superiority / Non-Inferiority / Equivalence / Futility
-    * Односторонние / Двусторонние
-    * Fixed-horizon design / Sequential design / Adaptive design
-  * Формализация A/B тестирования
-    * Типы метрики:
-      * Прокси метрики
-      * Success / Guardrail / Deterioration / Quaility
-      * User-level Метрики vs Ratio Метрики  -> дельта метод
-      * прокси-метрики
-    * Матрица ошибок (Confusion matrix), ошибки 1 и 2 рода 
-      * Матрица ошибок
-      * Ошибки 1 и 2 рода
-    * MDE & sample size calculation
-    * Статистические критерии
-  * Проверка корректности критерия
-  * Основные проблемы тестов
-    
+  * Предпоссылки у ускорению тестирования
+  * Методы снижения дисперсии
+    * Очистка от выбросов
+    * Стратификация (пре- и пост- стратификация)
+    * Бакетизация
+    * Линеаризация
+    * Weighted Variance Estimator
+    * CUPED
+    * Predictive CUPED
+    * CUPAC
+    * MLRATE
+  * Культура тестирования
+
   **Цели**
 
-  1.  
-  2.  
-  3.  
+  1. Рассказать о необходимости ускорения A/B тестов
+  2. Познакомить основными методами ускорения A/B тестов через снижение дисперсии
+  3. Подсветить важность культуры тестирования в компаниях
+
 
 **Используемые Источники** 
 
-1. [Уровень доказательности экспериментов](https://en.wikipedia.org/wiki/Hierarchy_of_evidence) 
-2. [Рандомизированные Контролируемые Испытания (RCT)](https://en.wikipedia.org/wiki/Randomized_controlled_trial)
-3. [Superiority vs Non-inferiority Tests](https://blog.analytics-toolkit.com/2017/case-non-inferiority-designs-ab-testing/)
-4. [Типы тестов для two-sample test](https://www.ncss.com/wp-content/themes/ncss/pdf/Procedures/NCSS/Two_Proportions-Non-Inferiority,_Superiority,_Equivalence,_and_Two-Sided_Tests_vs_a_Margin.pdf) (главное - разные виды тестов)
-5. [Прокси метрики](https://www.youtube.com/watch?v=fSRKOr3L6AI) 
-6. [Типы тестов + типы метрик по целям](https://arxiv.org/pdf/2402.11609)  (глава 2)
-7. [Метрики отношений и дельта метод](https://habr.com/ru/companies/X5Tech/articles/740476/)
-8. [Матрица ошибок](https://en.wikipedia.org/wiki/Confusion_matrix#cite_ref-22)
-9. [Ошибки 1 и 2 рода](https://ru.wikipedia.org/wiki/Ошибки_первого_и_второго_рода)
-   
+1. [Очистка выбросов](https://habr.com/ru/companies/avito/articles/571094/#:~:text=%D0%9C%D0%B5%D1%82%D0%BE%D0%B4%D1%8B%20%D0%B1%D0%BE%D1%80%D1%8C%D0%B1%D1%8B%20%D1%81%20%D0%B2%D1%8B%D0%B1%D1%80%D0%BE%D1%81%D0%B0%D0%BC%D0%B8%20%D0%B2%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85)
+2. [Бакетизация](https://habr.com/ru/articles/815331/)
+3. [Стратификация](https://habr.com/ru/companies/X5Tech/articles/596279/)
+4. [Линеаризация (оригинальная статья)](https://www.researchgate.net/publication/322969314_Consistent_Transformation_of_Ratio_Metrics_for_Efficient_Online_Controlled_Experiments) 
+5. [Линеаризация статья-пример #1](https://habr.com/ru/articles/918880/) 
+6. [Линеаризация статья-пример #2](https://habr.com/ru/companies/kuper/articles/768826/) 
+7. [Weighted Variance Estimator (оригинальная статья)](https://dl.acm.org/doi/10.1145/3391403.3399542)
+8. [Weighted Variance Estimator пример использования](https://www.youtube.com/watch?v=jZNXthVqbrc)
+9. [CUPED полный разбор](https://habr.com/ru/companies/X5Tech/articles/780270/)
+10. [ML-методы для ускорения тестов](https://habr.com/ru/companies/avito/articles/590105/)
+11. [Как улучшить тесты часть 1](https://habr.com/ru/companies/avito/articles/571094/)
+12. [Как улучшить тесты часть 2](https://habr.com/ru/companies/avito/articles/571096/)
+13. [Методы ускорения тестов от expf](https://www.youtube.com/watch?v=DtDGYUW0oGY)
+14. [Ускорение A/B тестов Валерий Бабушкин](https://www.youtube.com/watch?v=Izy7iclvxHM)
+15. [Ускорение A/B тестов линейными методами](https://www.youtube.com/watch?v=jPysoXa3udU&t=6s)
+16. [Краткий обзор по методоам ускорения A/B тестов](https://www.youtube.com/watch?v=4_J5pvdG35U&t=409s)
+17. [Кейс предиктивного CUPED](https://www.youtube.com/watch?v=2ZhSNahXCl8)
+18. [Обзор основных методов снижения дисперсии](https://medium.com/data-science/online-experiments-tricks-variance-reduction-291b6032dcd7)
+19. [Процесс организации и проведения тестов в компании](https://habr.com/ru/companies/oleg-bunin/articles/836056/)
