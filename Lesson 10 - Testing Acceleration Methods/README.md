@@ -10,7 +10,11 @@
     * Односторонние / Двусторонние
     * Fixed-horizon design / Sequential design / Adaptive design
   * Формализация A/B тестирования
-    * Типы метрик
+    * Типы метрики:
+      * Прокси метрики
+      * Success / Guardrail / Deterioration / Quaility
+      * User-level Метрики vs Ratio Метрики  -> дельта метод
+      * прокси-метрики
     * MDE & sample size calculation
     * Матрица ошибок (Confusion matrix), ошибки 1 и 2 рода
     * Статистические критерии
@@ -29,9 +33,9 @@
 2. [Рандомизированные Контролируемые Испытания (RCT)](https://en.wikipedia.org/wiki/Randomized_controlled_trial)
 3. [Superiority vs Non-inferiority Tests](https://blog.analytics-toolkit.com/2017/case-non-inferiority-designs-ab-testing/)
 4. [Типы тестов для two-sample test](https://www.ncss.com/wp-content/themes/ncss/pdf/Procedures/NCSS/Two_Proportions-Non-Inferiority,_Superiority,_Equivalence,_and_Two-Sided_Tests_vs_a_Margin.pdf) (главное - разные виды тестов)
-5. [ ]( ) 
-6. [ ]( ) 
-7. [ ]( )
+5. [Прокси метрики](https://www.youtube.com/watch?v=fSRKOr3L6AI) 
+6. [Типы тестов + типы метрик по целям](https://arxiv.org/pdf/2402.11609)  (глава 2)
+7. [Метрики отношений и дельта метод](https://habr.com/ru/companies/X5Tech/articles/740476/)
 8. [ ]( )
 9. [ ]( )
    
