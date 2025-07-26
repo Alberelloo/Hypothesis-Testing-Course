@@ -2,7 +2,7 @@
 
 **Название** : Методы ускорения A/B тестов
 
-**Темы** : 
+**Темы лекции** : 
   * Концепция идеального тестирования: уровень доказательности и Рандомизированные Контролируемые Испытания (RCT)
   * Пайплайн тестирования гипотез
   * Виды тестов
@@ -20,13 +20,13 @@
       * Ошибки 1 и 2 рода
     * MDE & sample size calculation
     * Статистические критерии
-     * Параметрические
-      * Z тест
-      * T тест
-     * Непараметрические
-     * $\chi^2$ тест
-     * U тест (Mann–Whitney)
-     * Bootstrap
+      * Параметрические
+        * $z$ тест
+        * $t$ тест
+      * Непараметрические
+        * $\chi^2$ тест
+        * $U$ тест (Mann–Whitney)
+        * Bootstrap
   * Проверка корректности критерия
   * Основные проблемы тестов
     * Проблемы подглядывания (peeking problem)
@@ -34,7 +34,13 @@
       * Проблемы рандомизации (SRM + A/A/B тесты)
       * Проблемы гомогенности групп
       * Проблемы независимости групп
-        
+
+**Темы семинара** : 
+  * Доказательство центральной придельной теоремы с помощью Монте-Карло
+  * Проведение теста с помощью z-теста
+  * Проведение теста с помощью t-теста
+  * Проведение теста с помощью $\chi^2$-теста
+
   **Цели**
 
   1. Познакомить с доказательствами в науке
@@ -64,7 +70,7 @@
 18. [t-test #1](https://habr.com/ru/companies/X5Tech/articles/807001/)
 19. [t-test #2](https://bytepawn.com/ab-testing-and-the-ttest.html#ab-testing-and-the-ttest)
 20. [Welch test](https://habr.com/ru/companies/X5Tech/articles/896182/)
-21. [U-test (Mann–Whitney)](https://habr.com/ru/companies/avito/articles/709596/)
+21. [$U$-test (Mann–Whitney)](https://habr.com/ru/companies/avito/articles/709596/)
 22. [χ²-test #1](https://habr.com/ru/companies/mygames/articles/677074/)
 23. [χ²-test #2](https://bytepawn.com/ab-testing-and-the-chi-squared-test.html#ab-testing-and-the-chi-squared-test)
 24. [Bootstrap](https://habr.com/ru/companies/X5Tech/articles/679842/)
