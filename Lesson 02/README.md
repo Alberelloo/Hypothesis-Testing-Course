@@ -29,7 +29,12 @@
      * Bootstrap
   * Проверка корректности критерия
   * Основные проблемы тестов
-    
+    * Проблемы подглядывания (peeking problem)
+    * Проблемы предпосылок RCT
+      * Проблемы рандомизации (SRM + A/A/B тесты)
+      * Проблемы гомогенности групп
+      * Проблемы независимости групп
+        
   **Цели**
 
   1.  
@@ -50,6 +55,7 @@
 10. [Ошибки 1 и 2 рода](https://ru.wikipedia.org/wiki/Ошибки_первого_и_второго_рода)
 11. [Power Analysis](https://chabefer.github.io/STCI/Power.html#basics-of-traditional-power-analysis-using-test-statistics)
 12. [Определение размера выборки на исторических данных](https://habr.com/ru/companies/lamoda/articles/707816/)
+13. [Определение размера выборов для ratio метрик](https://medium.com/expedia-group-tech/how-to-size-for-online-experiments-with-ratio-metrics-3d57362f1967)
 14. [Сборник статистических критериев #1](https://www.statskingdom.com/index.html)
 15. [Сборник статистических критериев #2](https://www.biostathandbook.com/testchoice.html)
 16. [z-test](https://bytepawn.com/ab-testing-and-the-ztest.html#ab-testing-and-the-ztest)
@@ -62,8 +68,11 @@
 23. [χ²-test #2](https://bytepawn.com/ab-testing-and-the-chi-squared-test.html#ab-testing-and-the-chi-squared-test)
 24. [Bootstrap](https://habr.com/ru/companies/X5Tech/articles/679842/)
 25. [Проверка валидности критерия](https://habr.com/ru/companies/X5Tech/articles/706388/)
+26. [A/A/B тесты](https://koch-kir.medium.com/не-стоит-проводить-а-а-в-тест-936e9e7a3b96)
 
 **Дополнительные Источники**
-1. [Статистическая значимость](https://en.wikipedia.org/wiki/Statistical_significance)
-2. [z статистика в python](https://habr.com/ru/articles/557424/)
-3. [t статистика в python](https://habr.com/ru/articles/559062/)
+1. [A/B тесты для продактов](https://www.youtube.com/live/gMx-juYkNCw)
+2. [Статистическая значимость](https://en.wikipedia.org/wiki/Statistical_significance)
+3. [Новые подходы к вычисление размера выборки](https://arxiv.org/pdf/2305.16459)
+4. [z статистика в python](https://habr.com/ru/articles/557424/)
+5. [t статистика в python](https://habr.com/ru/articles/559062/)
