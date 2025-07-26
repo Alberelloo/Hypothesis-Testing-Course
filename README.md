@@ -27,33 +27,41 @@
     <th>Мини-блок</th>
     <th>тема</th>
     <th>расчетное время (ч)</th>
+    <th>формат</th>
+  </tr>
   </tr>
   <tr>
     <td rowspan="4">стандартные A/B тесты</td>
     <td>1. Базовая статистика на Python. Бутстрап (Bootstrap)</td>
     <td> 1.5 </td>
+    <td> Лекция </td>
   </tr>
   <tr>
     <td>2. Введение в тестирование гипотез: A/B тестирование: основы и дизайн</td>
     <td> 3 </td>
+    <td> Лекция + семинар </td>
   </tr>
   <tr>
     <td>3. Множественное тестирование гипотез</td>
     <td> 1.5 </td>
+    <td> Лекция </td>
   </tr>
   <tr>
     <td>4. Методы ускорения A/B тестов</td>
     <td> 1.5 </td>
+    <td> Лекция </td>
   </tr>
 
   <tr>
     <td rowspan="6">Альтернатива A/B тестам</td>
     <td>5. Sequential Testing</td>
     <td> 1.5 </td>
+    <td> Лекция </td>
   </tr>
   <tr>
     <td>6. Multi-Armed Bandits</td>
     <td> 1.5 </td>
+    <td> Лекция </td>
   </tr>
   <tr>
     <td>7. Байесовские A/B тесты</td>
@@ -62,29 +70,35 @@
   <tr>
     <td>8. Switchback тестирование</td>
     <td> 1.5 </td>
+    <td> Лекция </td>
   </tr>
   <tr>
     <td>9. Causal Inference Basics</td>
     <td> 3 </td>
+    <td> Лекция </td>
   </tr>
   <tr>
     <td>10. Causal Inference Advanced</td>
     <td> 1.5 </td>
+    <td> Лекция </td>
   </tr>
 
   <tr>
     <td rowspan="2">A/B культура</td>
     <td>11. Мета-анализ A/B тестов</td>
     <td> 1.5 </td>
+    <td> Лекция </td>
   </tr>
   <tr>
     <td>12. A/B тесты в компаниях</td>
     <td> 1.5 </td>
+    <td> Лекция </td>
   </tr>
 
   <tr>
     <td rowspan="1">Итого</td>
-    <td> 12 лекций </td>
+    <td> 12 занятий </td>
+    <td>  XXX лекций и YYY семинаров </td>
     <td> XXX часов  </td>
   </tr>
 
