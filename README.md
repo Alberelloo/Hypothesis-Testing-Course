@@ -30,56 +30,63 @@
   <tr>
     <td rowspan="4">стандартные A/B тесты</td>
     <td>1. Базовая статистика на Python. Бутстрап (Bootstrap)</td>
-    <td>4</td>
+    <td> 1.5 </td>
   </tr>
   <tr>
     <td>2. Введение в тестирование гипотез: A/B тестирование: основы и дизайн</td>
-    <td>4</td>
+    <td> 3 </td>
   </tr>
   <tr>
     <td>3. Множественное тестирование гипотез</td>
-    <td>3</td>
+    <td> 1.5 </td>
   </tr>
   <tr>
     <td>4. Методы ускорения A/B тестов</td>
-    <td>3</td>
+    <td> 1.5 </td>
   </tr>
 
   <tr>
     <td rowspan="6">Альтернатива A/B тестам</td>
     <td>5. Sequential Testing</td>
-    <td>4</td>
+    <td> 1.5 </td>
   </tr>
   <tr>
     <td>6. Multi-Armed Bandits</td>
-    <td>4</td>
+    <td> 1.5 </td>
   </tr>
   <tr>
     <td>7. Байесовские A/B тесты</td>
-    <td>4</td>
+    <td> 1.5 </td>
   </tr>
   <tr>
     <td>8. Switchback тестирование</td>
-    <td>3</td>
+    <td> 1.5 </td>
   </tr>
   <tr>
     <td>9. Causal Inference Basics</td>
-    <td>4</td>
+    <td> 3 </td>
   </tr>
   <tr>
     <td>10. Causal Inference Advanced</td>
-    <td>4</td>
+    <td> 1.5 </td>
   </tr>
 
   <tr>
     <td rowspan="2">A/B культура</td>
     <td>11. Мета-анализ A/B тестов</td>
-    <td>3</td>
+    <td> 1.5 </td>
   </tr>
   <tr>
     <td>12. A/B тесты в компаниях</td>
-    <td>3</td>
+    <td> 1.5 </td>
   </tr>
+
+  <tr>
+    <td rowspan="1">Итого</td>
+    <td> 12 лекций </td>
+    <td> XXX часов  </td>
+  </tr>
+
 </table>
 
 </body>
