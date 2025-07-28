@@ -23,8 +23,8 @@
 3. [Суть байесовской статистики](https://www.youtube.com/watch?v=3jP4H0kjtng&list=PLEDdkzD9hUd4iebXTR6CYbAZI9eMDyfPk&index=7)
 4. [Сопряжённые распределения](https://ru.wikipedia.org/wiki/Сопряжённое_априорное_распределение)
 5. [Пример подсчёта с приором и збета распределения](https://towardsdatascience.com/beta-distributions-a-cornerstone-of-bayesian-calibration-801f96e21498/)
-6. [Байесовская статистика в PYMC](https://medium.com/data-science/hands-on-bayesian-statistics-with-python-pymc3-arviz-499db9a59501)
-7. [Байесовское моделирование в PYMC](https://juanitorduz.github.io/intro_pymc3/)
+6. [Байесовская статистика в PYMC](https://www.pymc.io/projects/examples/en/latest/case_studies/bayesian_workflow.html#the-bayesian-workflow-an-overview)
+7. 
 8. []()
 
 **Доп источники**
