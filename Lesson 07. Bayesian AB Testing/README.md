@@ -9,6 +9,7 @@
     * Кейс для понимания теории
     * Байесовская статистика в PYMC
   * Байесовский A/B Тест
+  * Сравнение Байесовского и Частотного A/B тестирования
 
     
 **Цели**
@@ -26,6 +27,7 @@
 6. [Байесовская статистика в PYMC](https://www.pymc.io/projects/examples/en/latest/case_studies/bayesian_workflow.html#the-bayesian-workflow-an-overview)
 7. [Байесовский A/B тест](https://www.pymc.io/projects/examples/en/2022.01.0/case_studies/bayesian_ab_testing.html#bernoulli-conversions)
 8. [Планирование Байесовский A/B тестов](https://www.youtube.com/watch?v=1fnXvWwtFss)
+9. [Байесовский подход к A/B тестированию](https://habr.com/ru/companies/glowbyte/articles/732024/)
 
 **Доп источники**
 * [История статистики до 1750](https://www.amazon.com/History-Probability-Statistics-Applications-before/dp/0471471291)
