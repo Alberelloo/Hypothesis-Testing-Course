@@ -59,12 +59,12 @@
     <td> Лекция </td>
   </tr>
   <tr>
-    <td>6. Multi-Armed Bandits</td>
+    <td>6. Байесовские A/B тесты</td>
     <td> 1.5 </td>
     <td> Лекция </td>
   </tr>
   <tr>
-    <td>7. Байесовские A/B тесты</td>
+    <td>7. Multi-Armed Bandits</td>
     <td> 1.5 </td>
     <td> Лекция </td>
   </tr>
