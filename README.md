@@ -116,6 +116,7 @@
 | 3.    | Тестирование в оффлайн ([1](https://habr.com/ru/companies/ru_mts/articles/648063/), [2](https://www.youtube.com/watch?v=OZ1Ywpm4kIY), [3](https://www.youtube.com/watch?v=jC20dtKoUGU&t=1811s), [4](https://www.amazon.science/blog/a-first-of-its-kind-experiment-to-measure-the-impact-of-out-of-home-advertising) )| 40 минут |
 | 4.    | Оценка финансового эффекта эксперимента | 20-40 минут|
 | 5.    | Interleaving ([1](https://lms.matemarketing.ru/content/talk/617) [2](https://airbnb.tech/data/beyond-a-b-test-speeding-up-airbnb-search-ranking-experimentation-through-interleaving/)) | 20-40 минут|
+| 6.    | Uplift моделирование | 60-90 минут |
 
 ____
 
