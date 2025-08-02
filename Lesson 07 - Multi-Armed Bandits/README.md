@@ -23,3 +23,4 @@
 **Доп источники**
 * [Полноценная статья о MAB](https://arxiv.org/pdf/1904.07272)
 * [Хороший идейный разбор с графиками и реализацией](https://github.com/raffg/multi_armed_bandit/tree/master)
+* [Реализация MAB](https://github.com/Arngren/bayesian-ab-test)
