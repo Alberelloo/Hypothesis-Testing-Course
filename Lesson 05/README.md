@@ -25,16 +25,15 @@
 4. [mixture Sequential Probability Ratio Test практическое объяснение](https://websitelytics.top/blog/post/msprt/)
 5. [Always Valid Inference (статья)](https://arxiv.org/pdf/1512.04922)
 6. [Always Valid Inference (презентация)](https://simons.berkeley.edu/sites/default/files/docs/5572/simonsrj.pdf)
-7. [Corrected-alpha Approach (статья)](https://arxiv.org/pdf/1905.10493)
-8. [Corrected-alpha Approach в Statsig](https://docs.statsig.com/experiments-plus/sequential-testing/)
-9. [Group Sequential Testing объяснение](https://habr.com/ru/companies/tbank/articles/876984/)
-10. [Group Sequential Testing (реализация)](https://matteocourthoud.github.io/post/group_sequential_testing/)
-11. [Сравнение методов](https://engineering.atspotify.com/2023/03/choosing-sequential-testing-framework-comparisons-and-discussions)
+7. [Group Sequential Testing объяснение](https://habr.com/ru/companies/tbank/articles/876984/)
+8. [Group Sequential Testing (реализация)](https://matteocourthoud.github.io/post/group_sequential_testing/)
+9. [Сравнение методов](https://engineering.atspotify.com/2023/03/choosing-sequential-testing-framework-comparisons-and-discussions)
 
 https://matteocourthoud.github.io/post/group_sequential_testing/
 
 **Доп источники**
 * [Fixed-Power Design от Spotify](https://arxiv.org/abs/2405.03487)
 * [YEAST от Zalando](https://arxiv.org/pdf/2406.16523v1)
+* [Corrected-alpha Approach](https://arxiv.org/pdf/1905.10493)
 * [Хорошая книга по Sequential Testing #1](https://www.amazon.com/Sequential-Analysis-Hypothesis-Changepoint-Probability/dp/1439838208)
 * [Хорошая книга по Sequential Testing #2](https://www.amazon.com/Sequential-Experimentation-Clinical-Trials-Statistics/dp/1461461138)
