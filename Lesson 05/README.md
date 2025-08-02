@@ -5,18 +5,15 @@
 **Темы** : 
   *  Peeking problem и её решение
   *  Основные методы
-    * SPRT (Sequential Probability Ratio Test)
-    * mSPRT (mixture Sequential Probability Ratio Test)
-    * AVI (Always Valid Inference)
-    * CAA (Corrected-alpha Approach)
-    * GST (Group Sequential Testing)
+     * SPRT (Sequential Probability Ratio Test)
+     * mSPRT (mixture Sequential Probability Ratio Test)
+     * AVI (Always Valid Inference)
+     * GST (Group Sequential Testing)
   * Сравнение методов между собой и с fixed-horizon тестированием
     
 **Цели**
-  1. йцу
-  2. йцу
-  3. йцу
-  4. йцу
+  1. Познакомить с концепцией последовательного тестирования
+  2. Дай обзор основных методов последовательного тестирования
 
 **Используемые Источники**
 1. [Sequential Probability Ratio Test (статья)](https://nowak.ece.wisc.edu/ece830/ece830_fall11_lecture9.pdf)
@@ -28,8 +25,6 @@
 7. [Group Sequential Testing объяснение](https://habr.com/ru/companies/tbank/articles/876984/)
 8. [Group Sequential Testing (реализация)](https://matteocourthoud.github.io/post/group_sequential_testing/)
 9. [Сравнение методов](https://engineering.atspotify.com/2023/03/choosing-sequential-testing-framework-comparisons-and-discussions)
-
-https://matteocourthoud.github.io/post/group_sequential_testing/
 
 **Доп источники**
 * [Fixed-Power Design от Spotify](https://arxiv.org/abs/2405.03487)
