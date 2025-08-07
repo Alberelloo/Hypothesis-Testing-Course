@@ -31,7 +31,7 @@
   </tr>
   <tr>
     <td rowspan="4">стандартные A/B тесты</td>
-    <td>1. Базовая статистика на Python. Бутстрап (Bootstrap)</td>
+    <td>1. Базовая статистика на Python. Бутстрап</td>
     <td> 1.5 </td>
     <td> Лекция </td>
   </tr>
@@ -63,22 +63,22 @@
     <td> Лекция </td>
   </tr>
   <tr>
-    <td>7. Multi-Armed Bandits</td>
+    <td>7. Многорукие Бандиты</td>
     <td> 1.5 </td>
     <td> Лекция </td>
   </tr>
   <tr>
-    <td>8. Switchback тестирование</td>
+    <td>8. Switchback</td>
     <td> 1.5 </td>
     <td> Лекция </td>
   </tr>
   <tr>
-    <td>9. Causal Inference Basics</td>
-    <td> 3 </td>
+    <td>9. Causal Inference. Процесс генерации данных</td>
+    <td> 1.5 </td>
     <td> Лекция </td>
   </tr>
   <tr>
-    <td>10. Causal Inference Advanced</td>
+    <td>10. Causal Inference. Интструментарий</td>
     <td> 1.5 </td>
     <td> Лекция </td>
   </tr>
