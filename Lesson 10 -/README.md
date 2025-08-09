@@ -24,7 +24,7 @@
 7. [Объяснение d-separation #2](https://networkx.org/documentation/stable/reference/algorithms/d_separation.html)
 8. [Объяснение d-separation #3](https://bayes.cs.ucla.edu/BOOK-2K/d-sep.html)
 9. [Объяснение d-separation #4](https://ericmjl.github.io/causality/03-d-separation/)
-10. [Объяснение $do$-оператора](https://ericmjl.github.io/causality/07-do-operator/)
+10. [Объяснение do-оператора](https://ericmjl.github.io/causality/07-do-operator/)
 11. [Простое объяснение Front door критерия](https://readmedium.com/causal-inference-part-xii-front-door-criterion-38bec5172f3e)
 12. [Простое объяснение Back door критерия](https://readmedium.com/causal-inference-part-xi-backdoor-criterion-e29627a1da0e)
 13. [Уверенность в DGP](https://theeffectbook.net/ch-CausalitywithLessModeling.html)
@@ -34,6 +34,7 @@
 * [Мини курс по причинно-следственности](https://github.com/DataForScience/Causality?tab=readme-ov-file)
 * [Неплохой курс по Casual Inference](https://theeffectbook.net/index.html)
 * [DoWhy для GCM](https://www.pywhy.org/dowhy/main/example_notebooks/nb_index.html)
+
 
 
 
