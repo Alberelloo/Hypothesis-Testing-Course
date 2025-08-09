@@ -73,12 +73,12 @@
     <td> Лекция </td>
   </tr>
   <tr>
-    <td>9. Causal Inference. Процесс генерации данных</td>
+    <td>9. Causal Inference. Potential Outcome Framework (Rubin-Causal-Model)</td>
     <td> 1.5 </td>
     <td> Лекция </td>
   </tr>
   <tr>
-    <td>10. Causal Inference. Интструментарий</td>
+    <td>10. Causal Inference. Graphical Casual Models (GCM)</td>
     <td> 1.5 </td>
     <td> Лекция </td>
   </tr>
