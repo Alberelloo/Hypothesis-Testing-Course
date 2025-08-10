@@ -1,6 +1,7 @@
 ### Занятие №10
 
 **Название** : Causal Inference. Graphical Casual Model (GCM)
+
 **Темы** : 
   * Модель генерации данных (Data Generating Process)
   * Направленный Ациклический Граф (Directed Acyclic Graph)
@@ -39,6 +40,7 @@
 * [Мини курс по причинно-следственности](https://github.com/DataForScience/Causality?tab=readme-ov-file)
 * [Неплохой курс по Casual Inference](https://theeffectbook.net/index.html)
 * [DoWhy для GCM](https://www.pywhy.org/dowhy/main/example_notebooks/nb_index.html)
+
 
 
 
