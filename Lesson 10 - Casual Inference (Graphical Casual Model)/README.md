@@ -33,9 +33,12 @@
 14. [Опровержение DAG'а](https://www.pywhy.org/dowhy/main/example_notebooks/gcm_falsify_dag.html)
 
 **Доп источники**
+* [Учебник по Casual Inference #1](https://miguelhernan.org/whatifbook)
+* [Учебник по Casual Inference #2](https://library.fa.ru/files/Imbens.pdf)
 * [Мини курс по причинно-следственности](https://github.com/DataForScience/Causality?tab=readme-ov-file)
 * [Неплохой курс по Casual Inference](https://theeffectbook.net/index.html)
 * [DoWhy для GCM](https://www.pywhy.org/dowhy/main/example_notebooks/nb_index.html)
+
 
 
 
