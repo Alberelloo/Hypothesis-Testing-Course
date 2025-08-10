@@ -12,7 +12,9 @@
   * Уверенность в DGP
     
 **Цели**
-  1. 
+  1. Познакомить с основами Graphical Casual Model
+  2. Подчеркнуть разницу и ограничения этого подхода по сравнению с Potential Framework
+  3. Кратко рассказать про библиотеку DoWhy
 
 **Используемые Источники**
 1. [Assosiation & Causation](https://biologyinsights.com/association-vs-causation-why-it-matters-in-biology/)
