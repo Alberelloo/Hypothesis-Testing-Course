@@ -4,16 +4,47 @@
 **Темы** : 
   * Необходимость причинно-следственного анализа (Casual Inference)
   * Casusation vs Correlation
-  * Процесс генерации данных (Data Generating Process)
-  * Направленный Ациклический Граф (Directed Acyclic Graph)
-  * Back-Door & Front-Door критерии
+  * Основные инструменты
+    * Regressions
+      * Виды 
+        * Linear Regression
+        * Ordinal Regression
+        * Zero-inflated Regression
+        * Grouped & Dummy Regression
+        * Regression Discontinuity Design
+      * Проблема Omitted Variable Bias
+        * Confounders
+        * Instrumental Variables (IV)
+      * Non-compliance ситуации и гетерогенные эффекты
+    
+    * Propensity Score
+    * Matching
+      * Mahalanobis Distance Matching
+      * Coarsened Exact Matching
+      * Curse of Dimensionality
+      * Propensity Score Matching (PSM) 
+    * Difference-in-Difference
+    * Synthetic Control
+    * Doubly-robust Estimator
+    * Debiased ML
+    * Plug-and-Play Estimator
+    * Meta Learners
+      * S-learner
+      * X-learner
+      * T-learner
+      * R-learner
+      * DR-learner
+    * Casual Forest
     
 **Цели**
   1. 
 
 **Используемые Источники**
-1. []()
-2. []()
+1. [Potential Outcome Framework](https://alexdeng.github.io/causal/rcm.html#randomization-and-unconfoundedness)
+2. [Correlation vs Casusation](https://en.wikipedia.org/wiki/Correlation_does_not_imply_causation)
+3. 
+[Отличное практическое объяснение методов RCM](https://matheusfacure.github.io/python-causality-handbook/landing-page.html)
+[Краткий обзор методов RCM](https://koch-kir.medium.com/causal-inference-from-observational-data-или-как-провести-а-в-тест-без-а-в-теста-afb84f2579f2#507b)
 
 **Доп источники**
 * [Учебник по Casual Inference #1](https://miguelhernan.org/whatifbook)
