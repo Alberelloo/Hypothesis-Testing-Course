@@ -16,4 +16,6 @@
 2. []()
 
 **Доп источники**
-* []()
+* [Учебник по Casual Inference #1](https://miguelhernan.org/whatifbook)
+* [Учебник по Casual Inference #2](https://library.fa.ru/files/Imbens.pdf)
+* [Курс по Casual Inference](https://www.youtube.com/watch?v=CfzO4IEMVUk&list=PLoazKTcS0Rzb6bb9L508cyJ1z-U9iWkA0)
