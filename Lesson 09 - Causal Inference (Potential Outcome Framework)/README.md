@@ -42,8 +42,16 @@
 **Используемые Источники**
 1. [Potential Outcome Framework](https://alexdeng.github.io/causal/rcm.html#randomization-and-unconfoundedness)
 2. [Correlation vs Casusation](https://en.wikipedia.org/wiki/Correlation_does_not_imply_causation)
-3. 
-[Отличное практическое объяснение методов RCM](https://matheusfacure.github.io/python-causality-handbook/landing-page.html)
+3. Что-то про регрессии
+4. [Методы Баланисировки групп](https://habr.com/ru/companies/X5Tech/articles/780690/)
+5. [Propensity Score и IPTW](https://matheusfacure.github.io/python-causality-handbook/11-Propensity-Score.html)
+6. [Мэтчинг](https://matheusfacure.github.io/python-causality-handbook/10-Matching.html)
+7. [Методы Мэтчинга](https://cran.r-project.org/web/packages/MatchIt/vignettes/matching-methods.html)
+8. [Propensity Score Matching](https://www.youtube.com/watch?v=rBv39pK1iEs&t=2148s)
+
+
+
+[Кейс приминения Casual Inference от X5](https://habr.com/ru/companies/X5Tech/articles/768008/)
 [Краткий обзор методов RCM](https://koch-kir.medium.com/causal-inference-from-observational-data-или-как-провести-а-в-тест-без-а-в-теста-afb84f2579f2#507b)
 
 **Доп источники**
