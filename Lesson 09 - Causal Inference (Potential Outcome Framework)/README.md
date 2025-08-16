@@ -17,7 +17,7 @@
         * Instrumental Variables (IV)
       * Non-compliance ситуации и гетерогенные эффекты
     
-    * Propensity Score
+    * Propensity Score. Inverse  Probability of Treatment Weightening  (IPTW)
     * Matching
       * Mahalanobis Distance Matching
       * Coarsened Exact Matching
