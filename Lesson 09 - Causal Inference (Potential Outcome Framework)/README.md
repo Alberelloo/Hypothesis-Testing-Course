@@ -57,7 +57,7 @@
 11. [Неплохая статья по Diff-in-Diff](https://habr.com/ru/companies/X5Tech/articles/867734/)
 12. [Интуитивное объяснение Diff-in-Diff](https://matheusfacure.github.io/python-causality-handbook/13-Difference-in-Differences.html)
 13. [Статья Synthetic Control](https://economics.mit.edu/sites/default/files/publications/jel.20191450.pdf)
-14. [Объяснение Syntheti Control](https://matheusfacure.github.io/python-causality-handbook/15-Synthetic-Control.html)
+14. [Объяснение Synthetic Control](https://matheusfacure.github.io/python-causality-handbook/15-Synthetic-Control.html)
 15. [Кейс Synthetic Control от Uber](https://www.youtube.com/watch?v=j5DoJV5S2Ao)
 
 
