@@ -1,6 +1,10 @@
 ### Занятие №9
 
 **Название** : Causal Inference. Potential Outcome Framework (Rubin-Causal-Model)
+
+___
+**Часть 1. Основы Casual Inference (Базовые методы)**
+
 **Темы** : 
   * Необходимость причинно-следственного анализа (Casual Inference)
   * Casusation vs Correlation
@@ -26,19 +30,25 @@
     * Difference-in-Difference
     * Synthetic Control
     * Panel Data & Fixed Effects
-  * Продвинутые методы
-    * Doubly-robust Estimator
-    * Plug-and-Play Estimator
-    * Meta Learners
-      * S-learner
-      * X-learner
-      * T-learner
-      * R-learner
-      * Domain Adaptation learner
-    * Debiased ML
-    * Casual Forest
-    * Casual Impact
-    
+___
+**Часть 2. ML в Casual Inference (Продвинутые методы)**
+
+**Темы** : 
+* Продвинутые методы
+  * Doubly-robust Estimator
+  * Plug-and-Play Estimator
+  * Meta Learners
+    * S-learner
+    * X-learner
+    * T-learner
+    * R-learner
+    * Domain Adaptation learner
+  * Debiased ML
+  * Casual Forest
+  * Casual Impact
+* Кейс-стади  
+
+___
 **Цели**
   1. 
 
@@ -62,7 +72,8 @@
 17. [Fixed Effects](https://theeffectbook.net/ch-FixedEffects.html)
 18. [Doubly-robust Estimator](https://matheusfacure.github.io/python-causality-handbook/12-Doubly-Robust-Estimation.html)
 19. [Plug-and-Play Estimator](https://matheusfacure.github.io/python-causality-handbook/20-Plug-and-Play-Estimators.html)
-20. [Meta Learners](
+20. [Meta Learners](https://matheusfacure.github.io/python-causality-handbook/21-Meta-Learners.html)
+21. [Advanced методы моделирования Casual Inference](https://www.youtube.com/watch?v=Kx6W-Jq3OWE)
 
 
 [Статья Casual Impact](https://projecteuclid.org/journals/annals-of-applied-statistics/volume-9/issue-1/Inferring-causal-impact-using-Bayesian-structural-time-series-models/10.1214/14-AOAS788.full)
