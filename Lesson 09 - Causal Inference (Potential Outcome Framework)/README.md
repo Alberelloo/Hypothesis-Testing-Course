@@ -16,7 +16,6 @@
         * Confounders
         * Instrumental Variables (IV)
       * Non-compliance ситуации и гетерогенные эффекты
-    
     * Propensity Score. Inverse  Probability of Treatment Weightening  (IPTW)
     * Matching
       * Mahalanobis Distance Matching
@@ -27,18 +26,18 @@
     * Difference-in-Difference
     * Synthetic Control
     * Panel Data & Fixed Effects
-    * Casual Impact
   * Продвинутые методы
     * Doubly-robust Estimator
-    * Debiased ML
     * Plug-and-Play Estimator
     * Meta Learners
       * S-learner
       * X-learner
       * T-learner
       * R-learner
-      * DR-learner
+      * Domain Adaptation learner
+    * Debiased ML
     * Casual Forest
+    * Casual Impact
     
 **Цели**
   1. 
@@ -59,7 +58,11 @@
 13. [Статья Synthetic Control](https://economics.mit.edu/sites/default/files/publications/jel.20191450.pdf)
 14. [Объяснение Synthetic Control](https://matheusfacure.github.io/python-causality-handbook/15-Synthetic-Control.html)
 15. [Кейс Synthetic Control от Uber](https://www.youtube.com/watch?v=j5DoJV5S2Ao)
-
+16. [Panel Data & Fixed Effects](https://matheusfacure.github.io/python-causality-handbook/14-Panel-Data-and-Fixed-Effects.html)
+17. [Fixed Effects](https://theeffectbook.net/ch-FixedEffects.html)
+18. [Doubly-robust Estimator](https://matheusfacure.github.io/python-causality-handbook/12-Doubly-Robust-Estimation.html)
+19. [Plug-and-Play Estimator](https://matheusfacure.github.io/python-causality-handbook/20-Plug-and-Play-Estimators.html)
+20. [Meta Learners](
 
 
 [Статья Casual Impact](https://projecteuclid.org/journals/annals-of-applied-statistics/volume-9/issue-1/Inferring-causal-impact-using-Bayesian-structural-time-series-models/10.1214/14-AOAS788.full)
