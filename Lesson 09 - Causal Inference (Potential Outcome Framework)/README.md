@@ -10,16 +10,11 @@ ___
   * Casusation vs Correlation
   * Базовые методы
     * Regressions
-      * Виды 
-        * Linear Regression
-        * Ordinal Regression
-        * Zero-inflated Regression
-        * Grouped & Dummy Regression
-        * Regression Discontinuity Design
+      * Linear Regression 
       * Проблема Omitted Variable Bias
-        * Confounders
-        * Instrumental Variables (IV)
-      * Non-compliance ситуации и гетерогенные эффекты
+      * Instrumental Variables (IV)
+      * Non-compliance ситуации
+      * Regression Discontinuity Design
     * Propensity Score. Inverse  Probability of Treatment Weightening  (IPTW)
     * Matching
       * Mahalanobis Distance Matching
@@ -52,28 +47,44 @@ ___
 **Цели**
   1. 
 
+
+
 **Используемые Источники**
+
+`Часть 1`
+
 1. [Причинно-следственный анализ](https://matheusfacure.github.io/python-causality-handbook/01-Introduction-To-Causality.html)
 2. [Potential Outcome Framework](https://alexdeng.github.io/causal/rcm.html#randomization-and-unconfoundedness)
 3. [Correlation vs Casusation](https://en.wikipedia.org/wiki/Correlation_does_not_imply_causation)
-4. Что-то про регрессии
-5. [Методы Баланисировки групп](https://habr.com/ru/companies/X5Tech/articles/780690/)
-6. [Propensity Score и IPTW](https://matheusfacure.github.io/python-causality-handbook/11-Propensity-Score.html)
-7. [Inverse  Probability of Treatment Weightening](https://alexdeng.github.io/causal/rcm.html#ipw)
-8. [Мэтчинг](https://matheusfacure.github.io/python-causality-handbook/10-Matching.html)
-9. [Методы Мэтчинга](https://cran.r-project.org/web/packages/MatchIt/vignettes/matching-methods.html)
-10. [Propensity Score Matching](https://www.youtube.com/watch?v=rBv39pK1iEs&t=2148s)
-11. [Неплохая статья по Diff-in-Diff](https://habr.com/ru/companies/X5Tech/articles/867734/)
-12. [Интуитивное объяснение Diff-in-Diff](https://matheusfacure.github.io/python-causality-handbook/13-Difference-in-Differences.html)
-13. [Статья Synthetic Control](https://economics.mit.edu/sites/default/files/publications/jel.20191450.pdf)
-14. [Объяснение Synthetic Control](https://matheusfacure.github.io/python-causality-handbook/15-Synthetic-Control.html)
-15. [Кейс Synthetic Control от Uber](https://www.youtube.com/watch?v=j5DoJV5S2Ao)
-16. [Panel Data & Fixed Effects](https://matheusfacure.github.io/python-causality-handbook/14-Panel-Data-and-Fixed-Effects.html)
-17. [Fixed Effects](https://theeffectbook.net/ch-FixedEffects.html)
-18. [Doubly-robust Estimator](https://matheusfacure.github.io/python-causality-handbook/12-Doubly-Robust-Estimation.html)
-19. [Plug-and-Play Estimator](https://matheusfacure.github.io/python-causality-handbook/20-Plug-and-Play-Estimators.html)
-20. [Meta Learners](https://matheusfacure.github.io/python-causality-handbook/21-Meta-Learners.html)
-21. [Advanced методы моделирования Casual Inference](https://www.youtube.com/watch?v=Kx6W-Jq3OWE)
+4. [Линейная регсессия #1](https://matheusfacure.github.io/python-causality-handbook/05-The-Unreasonable-Effectiveness-of-Linear-Regression.html)
+5. [Линейная регсессия #2](https://theeffectbook.net/ch-StatisticalAdjustment.html)
+6. [Включение переменных в регрессию](https://matheusfacure.github.io/python-causality-handbook/07-Beyond-Confounders.html)
+7. [Instrumental Variables](https://matheusfacure.github.io/python-causality-handbook/08-Instrumental-Variables.html)
+8. [Non-compliance ситуации](https://matheusfacure.github.io/python-causality-handbook/09-Non-Compliance-and-LATE.html)
+9. [Regression Discontinuity Design #1](https://matheusfacure.github.io/python-causality-handbook/16-Regression-Discontinuity-Design.html)
+10. [Regression Discontinuity Design #2](https://theeffectbook.net/ch-RegressionDiscontinuity.html)
+11. [Методы Баланисировки групп](https://habr.com/ru/companies/X5Tech/articles/780690/)
+12. [Propensity Score и IPTW](https://matheusfacure.github.io/python-causality-handbook/11-Propensity-Score.html)
+13. [Inverse  Probability of Treatment Weightening](https://alexdeng.github.io/causal/rcm.html#ipw)
+14. [Мэтчинг #1](https://matheusfacure.github.io/python-causality-handbook/10-Matching.html)
+15. [Мэтчинг #2](https://theeffectbook.net/ch-Matching.html)
+16. [Методы Мэтчинга](https://cran.r-project.org/web/packages/MatchIt/vignettes/matching-methods.html)
+17. [Propensity Score Matching](https://www.youtube.com/watch?v=rBv39pK1iEs&t=2148s)
+18. [Неплохая статья по Diff-in-Diff](https://habr.com/ru/companies/X5Tech/articles/867734/)
+19. [Интуитивное объяснение Diff-in-Diff](https://matheusfacure.github.io/python-causality-handbook/13-Difference-in-Differences.html)
+20. [Статья Synthetic Control](https://economics.mit.edu/sites/default/files/publications/jel.20191450.pdf)
+21. [Объяснение Synthetic Control](https://matheusfacure.github.io/python-causality-handbook/15-Synthetic-Control.html)
+22. [Кейс Synthetic Control от Uber](https://www.youtube.com/watch?v=j5DoJV5S2Ao)
+23. [Panel Data & Fixed Effects](https://matheusfacure.github.io/python-causality-handbook/14-Panel-Data-and-Fixed-Effects.html)
+24. [Fixed Effects](https://theeffectbook.net/ch-FixedEffects.html)
+
+`Часть 2`
+
+1. [Doubly-robust Estimator](https://matheusfacure.github.io/python-causality-handbook/12-Doubly-Robust-Estimation.html)
+2. [Plug-and-Play Estimator](https://matheusfacure.github.io/python-causality-handbook/20-Plug-and-Play-Estimators.html)
+3. [Meta Learners](https://matheusfacure.github.io/python-causality-handbook/21-Meta-Learners.html)
+4. [Advanced методы моделирования Casual Inference](https://www.youtube.com/watch?v=Kx6W-Jq3OWE)
+5. 
 
 
 [Статья Casual Impact](https://projecteuclid.org/journals/annals-of-applied-statistics/volume-9/issue-1/Inferring-causal-impact-using-Bayesian-structural-time-series-models/10.1214/14-AOAS788.full)
