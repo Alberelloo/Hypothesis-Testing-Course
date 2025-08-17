@@ -74,7 +74,7 @@
   </tr>
   <tr>
     <td>9. Causal Inference. Potential Outcome Framework (Rubin-Causal-Model)</td>
-    <td> 1.5 </td>
+    <td> 3 </td>
     <td> Лекция </td>
   </tr>
   <tr>
