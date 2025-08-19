@@ -1,9 +1,6 @@
-### Занятие №9
+### Занятие №10
 
-**Название** : Causal Inference. Potential Outcome Framework (Rubin-Causal-Model)
-
-___
-**Часть 1. Основы Casual Inference (Базовые методы)**
+**Название** : Causal Inference. Potential Outcome Framework (Basics)
 
 **Темы** : 
   * Необходимость причинно-следственного анализа (Casual Inference)
@@ -25,34 +22,12 @@ ___
     * Difference-in-Difference
     * Synthetic Control
     * Panel Data & Fixed Effects
-___
-**Часть 2. ML в Casual Inference (Продвинутые методы)**
 
-**Темы** : 
-* Продвинутые методы
-  * Doubly-robust Estimator
-  * Plug-and-Play Estimator
-  * Meta Learners
-    * S-learner
-    * X-learner
-    * T-learner
-    * R-learner
-    * Domain Adaptation learner
-  * Debiased ML
-  * Casual Forest
-  * Casual Impact
-* Кейс-стади  
-
-___
 **Цели**
-  1. 
-
-
+  1. Понять необходимость причинно-следственного анализа
+  2. Дать обзор классических методов причинно-следственного анализа
 
 **Используемые Источники**
-
-`Часть 1`
-
 1. [Причинно-следственный анализ](https://matheusfacure.github.io/python-causality-handbook/01-Introduction-To-Causality.html)
 2. [Potential Outcome Framework](https://alexdeng.github.io/causal/rcm.html#randomization-and-unconfoundedness)
 3. [Correlation vs Casusation](https://en.wikipedia.org/wiki/Correlation_does_not_imply_causation)
@@ -77,21 +52,8 @@ ___
 22. [Кейс Synthetic Control от Uber](https://www.youtube.com/watch?v=j5DoJV5S2Ao)
 23. [Panel Data & Fixed Effects](https://matheusfacure.github.io/python-causality-handbook/14-Panel-Data-and-Fixed-Effects.html)
 24. [Fixed Effects](https://theeffectbook.net/ch-FixedEffects.html)
-
-`Часть 2`
-
-1. [Doubly-robust Estimator](https://matheusfacure.github.io/python-causality-handbook/12-Doubly-Robust-Estimation.html)
-2. [Plug-and-Play Estimator](https://matheusfacure.github.io/python-causality-handbook/20-Plug-and-Play-Estimators.html)
-3. [Meta Learners](https://matheusfacure.github.io/python-causality-handbook/21-Meta-Learners.html)
-4. [Advanced методы моделирования Casual Inference](https://www.youtube.com/watch?v=Kx6W-Jq3OWE)
-5. 
-
-
-[Статья Casual Impact](https://projecteuclid.org/journals/annals-of-applied-statistics/volume-9/issue-1/Inferring-causal-impact-using-Bayesian-structural-time-series-models/10.1214/14-AOAS788.full)
-[Объяснение Casual Impact](https://www.youtube.com/watch?v=0_bl0A-cXcY)
-
-[Кейс приминения Casual Inference от X5](https://habr.com/ru/companies/X5Tech/articles/768008/)
-[Краткий обзор методов RCM](https://koch-kir.medium.com/causal-inference-from-observational-data-или-как-провести-а-в-тест-без-а-в-теста-afb84f2579f2#507b)
+25. [Краткий обзор методов RCM](https://koch-kir.medium.com/causal-inference-from-observational-data-или-как-провести-а-в-тест-без-а-в-теста-afb84f2579f2#507b)
+26. [Кейс приминения Casual Inference от X5](https://habr.com/ru/companies/X5Tech/articles/768008/)
 
 **Доп источники**
 * [Учебник по Casual Inference #1](https://miguelhernan.org/whatifbook)
