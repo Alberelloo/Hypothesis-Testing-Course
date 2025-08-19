@@ -52,7 +52,7 @@
   </tr>
 
   <tr>
-    <td rowspan="6">Альтернатива A/B тестам</td>
+    <td rowspan="7">Альтернатива A/B тестам</td>
     <td>5. Sequential Testing</td>
     <td> 1.5 </td>
     <td> Лекция </td>
@@ -73,16 +73,21 @@
     <td> Лекция </td>
   </tr>
   <tr>
-    <td>9. Causal Inference. Potential Outcome Framework (Rubin-Causal-Model)</td>
-    <td> 3 </td>
-    <td> Лекция </td>
-  </tr>
-  <tr>
-    <td>10. Causal Inference. Graphical Casual Models (GCM)</td>
+    <td>9. Causal Discovery. Graphical Casual Models (GCM)</td>
     <td> 1.5 </td>
     <td> Лекция </td>
   </tr>
-
+  <tr>
+    <td>10. Causal Inference. Potential Outcome Framework (Basics) </td>
+    <td> 1.5 </td>
+    <td> Лекция </td>
+  </tr>
+  <tr>
+    <td>11. Causal Inference. Potential Outcome Framework (Advanced) </td>
+    <td> 1.5 </td>
+    <td> Лекция </td>
+  </tr>
+  
   <tr>
     <td rowspan="2">A/B культура</td>
     <td>11. Мета-анализ A/B тестов</td>
@@ -97,7 +102,7 @@
 
   <tr>
     <td rowspan="1">Итого</td>
-    <td> 12 занятий </td>
+    <td> 13 занятий </td>
     <td>  XXX лекций и YYY семинаров </td>
     <td> XXX часов  </td>
   </tr>
