@@ -12,7 +12,7 @@
       * Instrumental Variables (IV)
       * Non-compliance ситуации
       * Regression Discontinuity Design
-    * Propensity Score. Inverse  Probability of Treatment Weightening  (IPTW)
+    * Propensity Score. Inverse  Propensity Weightening (IPW)
     * Matching
       * Mahalanobis Distance Matching
       * Coarsened Exact Matching
