@@ -16,7 +16,6 @@
     * Matching
       * Mahalanobis Distance Matching
       * Coarsened Exact Matching
-      * Mahalanobis Distance Matching
       * Curse of Dimensionality
       * Propensity Score Matching (PSM) 
     * Difference-in-Difference
