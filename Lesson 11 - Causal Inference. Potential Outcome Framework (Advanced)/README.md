@@ -28,7 +28,8 @@ ___
 6. [Debiased/Orthogonal Machine Learning](https://matheusfacure.github.io/python-causality-handbook/22-Debiased-Orthogonal-Machine-Learning.html#)
 7. [Статья Casual Impact](https://projecteuclid.org/journals/annals-of-applied-statistics/volume-9/issue-1/Inferring-causal-impact-using-Bayesian-structural-time-series-models/10.1214/14-AOAS788.full)
 8. [Объяснение Casual Impact](https://www.youtube.com/watch?v=0_bl0A-cXcY)
-9. [Advanced методы моделирования Casual Inference](https://www.youtube.com/watch?v=Kx6W-Jq3OWE)
+9. [Пример Casual Impact](https://habr.com/ru/articles/832466/)
+10. [Advanced методы моделирования Casual Inference](https://www.youtube.com/watch?v=Kx6W-Jq3OWE)
 
    
 **Доп источники**
