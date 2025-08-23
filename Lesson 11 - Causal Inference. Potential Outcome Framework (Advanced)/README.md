@@ -23,10 +23,12 @@ ___
 1. [Doubly-robust Estimator](https://matheusfacure.github.io/python-causality-handbook/12-Doubly-Robust-Estimation.html)
 2. [Plug-and-Play Estimator](https://matheusfacure.github.io/python-causality-handbook/20-Plug-and-Play-Estimators.html)
 3. [Meta Learners](https://matheusfacure.github.io/python-causality-handbook/21-Meta-Learners.html)
-4. [Debiased/Orthogonal Machine Learning](https://matheusfacure.github.io/python-causality-handbook/22-Debiased-Orthogonal-Machine-Learning.html#)
-5. [Статья Casual Impact](https://projecteuclid.org/journals/annals-of-applied-statistics/volume-9/issue-1/Inferring-causal-impact-using-Bayesian-structural-time-series-models/10.1214/14-AOAS788.full)
-6. [Объяснение Casual Impact](https://www.youtube.com/watch?v=0_bl0A-cXcY)
-7. [Advanced методы моделирования Casual Inference](https://www.youtube.com/watch?v=Kx6W-Jq3OWE)
+4. [Meta-Learners в CasualML](https://causalml.readthedocs.io/en/latest/methodology.html#s-learner)
+5. [Meta-Learners в EconML](https://www.pywhy.org/EconML/spec/estimation/metalearners.html)
+6. [Debiased/Orthogonal Machine Learning](https://matheusfacure.github.io/python-causality-handbook/22-Debiased-Orthogonal-Machine-Learning.html#)
+7. [Статья Casual Impact](https://projecteuclid.org/journals/annals-of-applied-statistics/volume-9/issue-1/Inferring-causal-impact-using-Bayesian-structural-time-series-models/10.1214/14-AOAS788.full)
+8. [Объяснение Casual Impact](https://www.youtube.com/watch?v=0_bl0A-cXcY)
+9. [Advanced методы моделирования Casual Inference](https://www.youtube.com/watch?v=Kx6W-Jq3OWE)
 
    
 **Доп источники**
