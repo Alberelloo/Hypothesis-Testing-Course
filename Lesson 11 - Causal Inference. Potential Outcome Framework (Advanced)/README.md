@@ -10,12 +10,8 @@
     * S-learner
     * X-learner
     * T-learner
-    * R-learner
-    * Domain Adaptation learner
   * Debiased ML
-  * Casual Forest
   * Casual Impact
-* Case-study
 
 ___
 **Цели**
@@ -27,11 +23,10 @@ ___
 1. [Doubly-robust Estimator](https://matheusfacure.github.io/python-causality-handbook/12-Doubly-Robust-Estimation.html)
 2. [Plug-and-Play Estimator](https://matheusfacure.github.io/python-causality-handbook/20-Plug-and-Play-Estimators.html)
 3. [Meta Learners](https://matheusfacure.github.io/python-causality-handbook/21-Meta-Learners.html)
-4. [Advanced методы моделирования Casual Inference](https://www.youtube.com/watch?v=Kx6W-Jq3OWE)
-5. что-то
-6. [Статья Casual Forest](https://arxiv.org/pdf/2404.13356)
-7. [Статья Casual Impact](https://projecteuclid.org/journals/annals-of-applied-statistics/volume-9/issue-1/Inferring-causal-impact-using-Bayesian-structural-time-series-models/10.1214/14-AOAS788.full)
-8. [Объяснение Casual Impact](https://www.youtube.com/watch?v=0_bl0A-cXcY)
+4. [Debiased/Orthogonal Machine Learning](https://matheusfacure.github.io/python-causality-handbook/22-Debiased-Orthogonal-Machine-Learning.html#)
+5. [Статья Casual Impact](https://projecteuclid.org/journals/annals-of-applied-statistics/volume-9/issue-1/Inferring-causal-impact-using-Bayesian-structural-time-series-models/10.1214/14-AOAS788.full)
+6. [Объяснение Casual Impact](https://www.youtube.com/watch?v=0_bl0A-cXcY)
+7. [Advanced методы моделирования Casual Inference](https://www.youtube.com/watch?v=Kx6W-Jq3OWE)
 
    
 **Доп источники**
