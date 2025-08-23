@@ -10,7 +10,6 @@
     * Upper Confidence Bounds
     * Tompson Sampling
 
-    
 **Цели**
   1. Рассказать о проблеме Exploration vs Exploitation
   2. Познакомть с принципом работы и базовыми методами MAB
