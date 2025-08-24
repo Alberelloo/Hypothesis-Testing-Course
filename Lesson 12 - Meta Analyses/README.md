@@ -28,9 +28,10 @@
 5. [weighted z-score в Ebay](https://innovation.ebayinc.com/stories/increase-a-b-testing-power-by-combining-experiments/)
 6. [Forest plot](https://en.wikipedia.org/wiki/Forest_plot)
 7. [Funnel plot](https://www.researchgate.net/publication/24096583_Funnel_Plots_in_Meta-analysis)
-8. [Сета Анализ в statsmodel](https://www.statsmodels.org/stable/examples/notebooks/generated/metaanalysis1.html#Mantel-Hanszel-odds-ratio-using-contingency-tables)
+8. [Мета анализ в python](https://bmcmedresmethodol.biomedcentral.com/articles/10.1186/s12874-022-01673-y)
 
 **Доп источники**
 * [Курс по мета анализу](https://www.coursera.org/learn/systematic-review)
 * [Учебник по мета анализу](https://link.springer.com/book/10.1007/978-981-15-5032-4)
+
 
