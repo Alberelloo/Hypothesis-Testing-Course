@@ -15,6 +15,7 @@
        *  weighted z-score (Stouffer's, Liptak)
        *  weighted harmonic mean p-value
   * Типовые визуализации
+  * Пример мета анализа в python
 
 **Цели**
   1. Дать понимание, что такое мета анализ и какие его основные преимущества и проблемы в науке.
@@ -33,5 +34,6 @@
 **Доп источники**
 * [Курс по мета анализу](https://www.coursera.org/learn/systematic-review)
 * [Учебник по мета анализу](https://link.springer.com/book/10.1007/978-981-15-5032-4)
+
 
 
