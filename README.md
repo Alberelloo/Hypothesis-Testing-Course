@@ -23,91 +23,111 @@
 
 <table>
   <tr>
+    <th>Блок</th>
     <th>Мини-блок</th>
-    <th>тема</th>
-    <th>расчетное время (ч)</th>
-    <th>формат</th>
+    <th>Тема</th>
+    <th>Расчетное время (ч)</th>
+    <th>Формат</th>
   </tr>
-  </tr>
+  
   <tr>
-    <td rowspan="4">основы A/B тестирования</td>
+    <td rowspan="4">A/B тестирование</td>
+    <td rowspan="4">Основы A/B тестирования</td>
     <td>1. Базовая статистика на Python. Бутстрап</td>
-    <td> 1.5 </td>
-    <td> Лекция </td>
+    <td>1.5</td>
+    <td>Лекция</td>
   </tr>
   <tr>
     <td>2. Введение в тестирование гипотез: A/B тестирование: основы и дизайн</td>
-    <td> 3 </td>
-    <td> Лекция + семинар </td>
+    <td>3</td>
+    <td>Лекция + семинар</td>
   </tr>
   <tr>
     <td>3. Множественное тестирование гипотез</td>
-    <td> 1.5 </td>
-    <td> Лекция </td>
+    <td>1.5</td>
+    <td>Лекция</td>
   </tr>
   <tr>
     <td>4. Методы ускорения A/B тестов</td>
-    <td> 1.5 </td>
-    <td> Лекция </td>
+    <td>1.5</td>
+    <td>Лекция</td>
   </tr>
 
   <tr>
-    <td rowspan="7">Альтернатива A/B тестам</td>
+    <td rowspan="7">Квази-эксперименты</td>
+    <td rowspan="4">Альтернатива A/B тестам</td>
     <td>5. Sequential Testing</td>
-    <td> 1.5 </td>
-    <td> Лекция </td>
+    <td>1.5</td>
+    <td>Лекция</td>
   </tr>
   <tr>
     <td>6. Байесовские A/B тесты</td>
-    <td> 1.5 </td>
-    <td> Лекция </td>
+    <td>1.5</td>
+    <td>Лекция</td>
   </tr>
   <tr>
     <td>7. Многорукие Бандиты</td>
-    <td> 1.5 </td>
-    <td> Лекция </td>
+    <td>1.5</td>
+    <td>Лекция</td>
   </tr>
   <tr>
     <td>8. Switchback</td>
-    <td> 1.5 </td>
-    <td> Лекция </td>
+    <td>1.5</td>
+    <td>Лекция</td>
   </tr>
   <tr>
+    <td rowspan="3">Причинно-следственный анализ</td>
     <td>9. Causal Discovery. Graphical Casual Models (GCM)</td>
-    <td> 1.5 </td>
-    <td> Лекция </td>
+    <td>1.5</td>
+    <td>Лекция</td>
   </tr>
   <tr>
-    <td>10. Causal Inference. Potential Outcome Framework (Basics) </td>
-    <td> 1.5 </td>
-    <td> Лекция </td>
+    <td>10. Causal Inference. Potential Outcome Framework (Basics)</td>
+    <td>1.5</td>
+    <td>Лекция</td>
   </tr>
   <tr>
-    <td>11. Causal Inference. Potential Outcome Framework (Advanced) </td>
-    <td> 1.5 </td>
-    <td> Лекция </td>
+    <td>11. Causal Inference. Potential Outcome Framework (Advanced)</td>
+    <td>1.5</td>
+    <td>Лекция</td>
   </tr>
   
   <tr>
     <td rowspan="2">A/B культура</td>
+    <td rowspan="2">A/B культура</td>
     <td>12. Мета-анализ A/B тестов</td>
-    <td> 1.5 </td>
-    <td> Лекция </td>
+    <td>1.5</td>
+    <td>Лекция</td>
   </tr>
   <tr>
     <td>13. A/B тесты в компаниях</td>
-    <td> 1.5 </td>
-    <td> Лекция </td>
+    <td>1.5</td>
+    <td>Лекция</td>
   </tr>
 
   <tr>
-    <td rowspan="1">Итого</td>
-    <td> 13 занятий </td>
-    <td>  XXX лекций и YYY семинаров </td>
-    <td> XXX часов  </td>
+    <td rowspan="2">Практические занятия</td>
+    <td>Открытое Чтение</td>
+    <td>14. Мини доклады на актуальные темы тестирования</td>
+    <td>3</td>
+    <td>Воркшоп</td>
   </tr>
-
+  <tr>
+    <td>Финальное Оценивание</td>
+    <td>15. Мок-собеседование на решение кейса по тестированию</td>
+    <td>3</td>
+    <td>Зачёт/Экзамен</td>
+  </tr>
+  
+  <tr>
+    <td colspan="2">Итого</td>
+    <td>16 занятий</td>
+    <td>27 часов (36 ак.часа) </td>
+    <td>13 лекций и 3 семинара</td>
+  </tr>
 </table>
+
+
 
 </body>
 </html>
