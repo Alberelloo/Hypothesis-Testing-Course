@@ -156,4 +156,7 @@ ____
 
 ## Доп. материалы
 - [E-value](https://arxiv.org/pdf/2410.23614)
-- 
+- [Современные проблемы A/B тестирования](https://arxiv.org/pdf/2212.11366)
+- [Сетевые эффекты в Meta](https://medium.com/@AnalyticsAtMeta/how-meta-tests-products-with-strong-network-effects-96003a056c2c)
+- [Роадмап в развитии в A/B](https://github.com/YuriyBalandin/ab_testing_roadmap/blob/main/Roadmap/roadmap.md)
+- [Доп. ресурсы по экспериментам](https://github.com/DavisTrey/ExperimentationResources)
