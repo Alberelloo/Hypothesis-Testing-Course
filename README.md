@@ -132,6 +132,15 @@
 </body>
 </html>
 
+____
+
+## Предварительные требования
+- Базовые знания статистики (меры центральной терненции, распределения и параметры, тестовые статистики);  
+- Опыт работы с Python (понимание кода);
+- Базовые знания машинного обучения (ML);
+
+____
+  
 ## Дополнтельные темы: (для будущего расширения)
 
 | Номер | Тема | Объём контента |
@@ -140,12 +149,11 @@
 | 2.    | [Трактовка разнонаправленных прокрасов](https://arxiv.org/pdf/2402.11609) | 30-40 минут |
 | 3.    | Тестирование в оффлайн ([1](https://habr.com/ru/companies/ru_mts/articles/648063/), [2](https://www.youtube.com/watch?v=OZ1Ywpm4kIY), [3](https://www.youtube.com/watch?v=jC20dtKoUGU&t=1811s), [4](https://www.amazon.science/blog/a-first-of-its-kind-experiment-to-measure-the-impact-of-out-of-home-advertising) )| 40 минут |
 | 4.    | Оценка финансового эффекта эксперимента | 20-40 минут|
-| 5.    | Interleaving ([1](https://lms.matemarketing.ru/content/talk/617) [2](https://airbnb.tech/data/beyond-a-b-test-speeding-up-airbnb-search-ranking-experimentation-through-interleaving/)), [3](https://sease.io/2020/05/online-testing-for-learning-to-rank-interleaving.html), [4](https://eprints.gla.ac.uk/108076/1/108076.pdf) | 20-40 минут|
+| 5.    | Interleaving ([1](https://lms.matemarketing.ru/content/talk/617) [2](https://airbnb.tech/data/beyond-a-b-test-speeding-up-airbnb-search-ranking-experimentation-through-interleaving/), [3](https://sease.io/2020/05/online-testing-for-learning-to-rank-interleaving.html), [4](https://eprints.gla.ac.uk/108076/1/108076.pdf) ) | 20-40 минут|
 | 6.    | Uplift моделирование ([1](https://habr.com/ru/companies/ru_mts/articles/485980/), [2](https://habr.com/ru/companies/glowbyte/articles/686398/), [3](https://causalml.readthedocs.io/en/latest/methodology.html#tree-based-algorithms)) | 60-90 минут |
 
 ____
 
-## Предварительные требования
-- Базовые знания статистики (меры центральной терненции, распределения и параметры, тестовые статистики);  
-- Опыт работы с Python (понимание кода);
-- Базовые знания машинного обучения (ML);
+## Доп. материалы
+- [E-value](https://arxiv.org/pdf/2410.23614)
+- 
