@@ -1,25 +1,22 @@
-### Занятие №7
+# Lesson 07 — Multi-Armed Bandits
 
-**Название** : Многорукие Бандиты
+## Overview
+Многорукие бандиты помогают балансировать между исследованием и эксплуатацией в условиях неопределённости. Урок вводит ключевые алгоритмы (ε-greedy, Softmax, UCB, Thompson Sampling) и обсуждает, когда они применяются для онлайн-оптимизации.
 
-**Темы** : 
-  * Exploration-Exploitation дилемма
-  * Основные алгоритмы
-    * $\epsilon$-greedy
-    * Softmax
-    * Upper Confidence Bounds
-    * Tompson Sampling
+## Learning goals
+- Понять дилемму exploration vs exploitation и её влияние на принятие решений.
+- Освоить базовую механику алгоритмов многоруких бандитов и их отличия.
+- Увидеть примеры применения MAB в бизнес-практиках.
 
-**Цели**
-  1. Рассказать о проблеме Exploration vs Exploitation
-  2. Познакомть с принципом работы и базовыми методами MAB
+## Session materials
+- [Lecture notebook](lecture.ipynb)
 
-**Используемые Источники**
-1. Ноутбук [Яна Пиле](https://www.linkedin.com/in/ian-pilé-a6078a75/), с которым он выступал в WB
+## References
+### Основные источники
+1. Ноутбук [Яна Пиле](https://www.linkedin.com/in/ian-pilé-a6078a75/) (материалы выступления WB)
 2. [Многорукие бандиты в задаче ритейла](https://habr.com/ru/companies/X5Tech/articles/783390/)
 
-
-**Доп источники**
-* [Полноценная статья о MAB](https://arxiv.org/pdf/1904.07272)
-* [Хороший идейный разбор с графиками и реализацией](https://github.com/raffg/multi_armed_bandit/tree/master)
-* [Реализация MAB](https://github.com/Arngren/bayesian-ab-test)
+### Дополнительные материалы
+- [Survey of multi-armed bandits](https://arxiv.org/pdf/1904.07272)
+- [Графический разбор и реализация MAB](https://github.com/raffg/multi_armed_bandit/tree/master)
+- [Bayesian AB test (пример реализации)](https://github.com/Arngren/bayesian-ab-test)

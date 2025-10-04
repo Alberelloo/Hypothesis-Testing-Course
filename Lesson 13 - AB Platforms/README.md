@@ -1,4 +1,19 @@
+# Lesson 13 — AB Platforms
 
+## Overview
+Финальное занятие посвящено архитектуре A/B-платформ: какие компоненты необходимы для масштабных экспериментов и какие инженерные решения позволяют обеспечивать надёжность и скорость поставки результатов.
 
-[System Design A/B платформы](https://www.youtube.com/watch?app=desktop&v=YlIQ9GcRYXk)
-[Высоконагруженная платформа А/B-тестов от Avito](https://habr.com/ru/companies/ozontech/articles/689052/)
+## Learning goals
+- Понять ключевые элементы высоконагруженных A/B платформ.
+- Познакомиться с практическими кейсами построения и эксплуатации систем экспериментов.
+
+## Session materials
+- Материалы представлены в виде внешних ссылок.
+
+## References
+### Основные источники
+1. [System Design A/B платформы](https://www.youtube.com/watch?app=desktop&v=YlIQ9GcRYXk)
+2. [Высоконагруженная платформа A/B-тестов от Avito](https://habr.com/ru/companies/ozontech/articles/689052/)
+
+### Дополнительные материалы
+- Дополнительных материалов нет.
