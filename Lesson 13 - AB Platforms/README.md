@@ -8,12 +8,12 @@
 - Познакомиться с практическими кейсами построения и эксплуатации систем экспериментов.
 
 ## Session materials
-- Материалы представлены в виде внешних ссылок.
-
+-  
 ## References
 ### Основные источники
 1. [System Design A/B платформы](https://www.youtube.com/watch?app=desktop&v=YlIQ9GcRYXk)
 2. [Высоконагруженная платформа A/B-тестов от Avito](https://habr.com/ru/companies/ozontech/articles/689052/)
 
 ### Дополнительные материалы
-- Дополнительных материалов нет.
+
+1. [Автоматизация A/B-экспериментирования с LLM](https://habr.com/ru/articles/953334/)
