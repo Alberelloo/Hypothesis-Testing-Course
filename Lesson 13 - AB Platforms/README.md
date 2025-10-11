@@ -29,3 +29,4 @@
 ### Дополнительные материалы
 
 1. [Автоматизация A/B-экспериментирования с LLM](https://habr.com/ru/articles/953334/)
+2. [Рисовалка архитектуры](https://app.eraser.io/workspace/0OErVHusCVb2ukk3i5Qo)
