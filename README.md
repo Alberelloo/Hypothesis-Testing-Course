@@ -51,7 +51,6 @@
 | 4 | Оценка финансового эффекта эксперимента | 20–90 минут |
 | 5 | Interleaving ( [1](https://lms.matemarketing.ru/content/talk/617), [2](https://airbnb.tech/data/beyond-a-b-test-speeding-up-airbnb-search-ranking-experimentation-through-interleaving/), [3](https://sease.io/2020/05/online-testing-for-learning-to-rank-interleaving.html), [4](https://eprints.gla.ac.uk/108076/1/108076.pdf) ) | 20–40 минут |
 | 6 | Uplift моделирование ( [1](https://habr.com/ru/companies/ru_mts/articles/485980/), [2](https://habr.com/ru/companies/glowbyte/articles/686398/), [3](https://causalml.readthedocs.io/en/latest/methodology.html#tree-based-algorithms) ) | 60–90 минут |
-| 7 | Экспериментирование с ML-моделями | 60-90 минут |
 
 ## Дополнительные материалы
 - [E-value](https://arxiv.org/pdf/2410.23614)
