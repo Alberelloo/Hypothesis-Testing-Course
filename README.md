@@ -43,11 +43,10 @@
 ## Дополнительные темы для расширения
 | № | Тема | Объём |
 |---|---|---|
-| 1 | [Построение доверительных интервалов для разных типов метрик](https://github.com/dakhakimova/YSDA_ABweek/tree/main) | 20–90 минут |
-| 2 | Тестирование в оффлайн ( [1](https://habr.com/ru/companies/ru_mts/articles/648063/), [2](https://www.youtube.com/watch?v=OZ1Ywpm4kIY), [3](https://www.youtube.com/watch?v=jC20dtKoUGU&t=1811s), [4](https://www.amazon.science/blog/a-first-of-its-kind-experiment-to-measure-the-impact-of-out-of-home-advertising) ) | 60 минут |
-| 3 | Оценка финансового эффекта эксперимента | 20–90 минут |
-| 4 | Interleaving ( [1](https://lms.matemarketing.ru/content/talk/617), [2](https://airbnb.tech/data/beyond-a-b-test-speeding-up-airbnb-search-ranking-experimentation-through-interleaving/), [3](https://sease.io/2020/05/online-testing-for-learning-to-rank-interleaving.html), [4](https://eprints.gla.ac.uk/108076/1/108076.pdf) ) | 20–40 минут |
-| 5 | Uplift моделирование ( [1](https://habr.com/ru/companies/ru_mts/articles/485980/), [2](https://habr.com/ru/companies/glowbyte/articles/686398/), [3](https://causalml.readthedocs.io/en/latest/methodology.html#tree-based-algorithms) ) | 60–90 минут |
+| 1 | Тестирование в оффлайн ( [1](https://habr.com/ru/companies/ru_mts/articles/648063/), [2](https://www.youtube.com/watch?v=OZ1Ywpm4kIY), [3](https://www.youtube.com/watch?v=jC20dtKoUGU&t=1811s), [4](https://www.amazon.science/blog/a-first-of-its-kind-experiment-to-measure-the-impact-of-out-of-home-advertising) ) | 60 минут |
+| 2 | Оценка финансового эффекта эксперимента | 20–90 минут |
+| 3 | Interleaving ( [1](https://lms.matemarketing.ru/content/talk/617), [2](https://airbnb.tech/data/beyond-a-b-test-speeding-up-airbnb-search-ranking-experimentation-through-interleaving/), [3](https://sease.io/2020/05/online-testing-for-learning-to-rank-interleaving.html), [4](https://eprints.gla.ac.uk/108076/1/108076.pdf) ) | 20–40 минут |
+| 4 | Uplift моделирование ( [1](https://habr.com/ru/companies/ru_mts/articles/485980/), [2](https://habr.com/ru/companies/glowbyte/articles/686398/), [3](https://causalml.readthedocs.io/en/latest/methodology.html#tree-based-algorithms) ) | 60–90 минут |
 
 ## Дополнительные материалы
 - [E-value](https://arxiv.org/pdf/2410.23614)
