@@ -27,3 +27,4 @@
 ### Дополнительные материалы
 - [Курс по мета-анализу](https://www.coursera.org/learn/systematic-review)
 - [Учебник по мета-анализу](https://link.springer.com/book/10.1007/978-981-15-5032-4)
+- [Оценка общего эффекта от экспериментов от Airbnb](https://dl.acm.org/doi/epdf/10.1145/3219819.3219905)
