@@ -1,17 +1,17 @@
 # Lesson 08 — Switchback Testing
 
-## Overview
+## Обзор
 Switchback тесты помогают корректно измерять эффект в условиях сетевых внешних воздействий и нарушений SUTVA. Занятие объясняет природу зависимостей между пользователями, вводит базовую реализацию switchback-дизайна и рассматривает практические кейсы.
 
-## Learning goals
+## Цели занятия
 - Понять, как сетевые эффекты и нарушения SUTVA искажают результаты классических A/B тестов.
 - Освоить принципы построения switchback экспериментов и интерпретации их результатов.
 - Познакомиться с реальными кейсами внедрения метода.
 
-## Session materials
-- [Lecture notebook](lecture.ipynb)
+## Материалы
+- [Лекция](lecture.ipynb)
 
-## References
+## Источник
 ### Основные источники
 1. [Switchback Experiments at Scale](https://arxiv.org/pdf/2009.00148)
 2. [Кейс Delivery Club](https://habr.com/ru/companies/deliveryclub/articles/670762/)
