@@ -17,14 +17,13 @@
    * Проверки на непересекаемость
  * Инфраструктурные проблемы тестирования
 
-* Имплементация собственной платформы  (как практика)
-
 ## Session materials
 -  
 ## References
 ### Основные источники
 1. [System Design A/B платформы](https://www.youtube.com/watch?app=desktop&v=YlIQ9GcRYXk)
 2. [Высоконагруженная платформа A/B-тестов от Avito](https://habr.com/ru/companies/ozontech/articles/689052/)
+3. [Многослойная система A/B платформ](https://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/36500.pdf)
 
 ### Дополнительные материалы
 
