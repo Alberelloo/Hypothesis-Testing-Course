@@ -1,17 +1,17 @@
 # Lesson 05 — Sequential Testing
 
-## Overview
+## Обзор
 Последовательное тестирование позволяет останавливать эксперименты в любой момент без роста уровня ложных срабатываний. Урок объясняет проблему подглядывания, знакомит с классическими и современными методами (SPRT, mSPRT, AVI, GST) и сравнивает их с фиксированным горизонтом.
 
-## Learning goals
+## Цели занятия
 - Разобраться, почему peeking ломает фиксированные тесты и как последовательные процедуры решают эту проблему.
 - Научиться отличать и применять основные алгоритмы последовательного тестирования.
 - Сравнивать sequential-подходы между собой и со стандартными fixed-horizon A/B тестами.
 
-## Session materials
-- [Lecture notebook](lecture.ipynb)
+## Материалы
+- [Лекции](lecture.ipynb)
 
-## References
+## Источники
 ### Основные источники
 1. [Sequential Probability Ratio Test (лекция)](https://nowak.ece.wisc.edu/ece830/ece830_fall11_lecture9.pdf)
 2. [Sequential Probability Ratio Test (реализация)](https://towardsdatascience.com/experiments-peeking-and-optimal-stopping-954506cec665/)
