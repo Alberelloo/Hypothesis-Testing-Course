@@ -8,7 +8,7 @@
 - Освоить популярные методы контроля ошибки первого рода (Bonferroni, Holm, Šidák) и доли ложных открытий (Benjamini–Hochberg, Benjamini–Yekutieli).
 - Научиться учитывать множественные сравнения при планировании A/B тестов и принятии решений.
 
-## Session materials
+## Материалы
 - [Лекция](lecture.ipynb)
 - [Презентация по принятию решений на множестве метрик](https://docs.google.com/presentation/d/1v7PzCJONgs8wFC6D61VXhpF6vIv-lPNBfxbF0NQP1hg/edit?usp=sharing)
 
