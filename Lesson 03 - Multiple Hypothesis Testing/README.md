@@ -1,18 +1,18 @@
 # Lesson 03 — Multiple Hypothesis Testing
 
-## Overview
+## Обзор
 Занятие раскрывает проблемы множественных сравнений: как p-hacking и рост вероятности ложных срабатываний влияют на интерпретацию результатов. Рассматриваются ключевые подходы к контролю FWER и FDR, а также практические аспекты планирования экспериментов с несколькими гипотезами.
 
-## Learning goals
+## Цели занятия
 - Понять, почему в многократных проверках стандартные критерии и уровни значимости перестают работать без корректировок.
 - Освоить популярные методы контроля ошибки первого рода (Bonferroni, Holm, Šidák) и доли ложных открытий (Benjamini–Hochberg, Benjamini–Yekutieli).
 - Научиться учитывать множественные сравнения при планировании A/B тестов и принятии решений.
 
 ## Session materials
-- [Lecture notebook](lecture.ipynb)
+- [Лекция](lecture.ipynb)
 - [Презентация по принятию решений на множестве метрик](https://docs.google.com/presentation/d/1v7PzCJONgs8wFC6D61VXhpF6vIv-lPNBfxbF0NQP1hg/edit?usp=sharing)
 
-## References
+## Источники
 ### Основные источники
 1. Georgi Z. Georgiev, *Statistical Methods in Online A/B Testing* (глава 6)
 2. [Проблема множественного сравнения гипотез](https://en.wikipedia.org/wiki/Multiple_comparisons_problem)
