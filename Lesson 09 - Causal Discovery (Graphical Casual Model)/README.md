@@ -1,17 +1,17 @@
 # Lesson 09 — Causal Discovery (Graphical Causal Model)
 
-## Overview
+## Обзор
 Урок знакомит с графовыми моделями причинности: от описания процессов генерации данных до инструментов идентификации причинных эффектов. Разбираются Directed Acyclic Graphs, d-separation, do-оператор, критерии Backdoor/Frontdoor и способы проверки гипотез о структуре графа.
 
-## Learning goals
+## Цели занятия
 - Понять, как DAG описывает причинные зависимости и чем он отличается от потенциальных исходов.
 - Научиться использовать d-separation и do-оператор для определения, какие переменные нужно контролировать.
 - Оценивать уверенность в структуре DGP и знакомиться с инструментами библиотеки DoWhy.
 
-## Session materials
-- [Lecture notebook](lecture.ipynb)
+## Материалы
+- [Лекция](lecture.ipynb)
 
-## References
+## Источники
 ### Основные источники
 1. [Association vs Causation](https://biologyinsights.com/association-vs-causation-why-it-matters-in-biology/)
 2. [Глава по GCM](https://alexdeng.github.io/causal/cgm.html#structural-equation-model-causal-diagram-and-d-separation)
