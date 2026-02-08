@@ -1,18 +1,18 @@
 # Lesson 10 — Causal Inference: Potential Outcome Framework (Basics)
 
-## Overview
+## Обзор
 Введение в потенциальные исходы охватывает необходимость причинно-следственного анализа, базовые понятия корреляции против причинности и набор классических методов оценки эффектов в наблюдательных данных.
 
-## Learning goals
+## Цели занятия
 - Понять, почему одной корреляции недостаточно и когда требуется causal inference.
 - Изучить ключевые инструменты потенциальных исходов: регрессии, IV, matching, propensity score, difference-in-differences и synthetic control.
 - Научиться формулировать предпосылки и выбирать подходящий метод под задачу.
 
-## Session materials
-- [Lecture notebook](lecture.ipynb)
+## Материалы
+- [Лекция](lecture.ipynb)
 - Папка [data](data/) с исходными наборами для практики.
 
-## References
+## Источники
 ### Основные источники
 1. [Введение в причинно-следственный анализ](https://matheusfacure.github.io/python-causality-handbook/01-Introduction-To-Causality.html)
 2. [Potential Outcome Framework](https://alexdeng.github.io/causal/rcm.html#randomization-and-unconfoundedness)
