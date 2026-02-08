@@ -1,18 +1,18 @@
 # Lesson 11 — Causal Inference: Potential Outcome Framework (Advanced)
 
-## Overview
+## Обзор
 Продолжение темы потенциальных исходов сосредоточено на применении методов машинного обучения для оценки причинных эффектов: от doubly-robust и plug-and-play оценок до meta-learner подходов, debiased ML и Casual Impact.
 
-## Learning goals
+## Цели занятия
 - Освоить принципы ML-оценок в causal inference и понять, чем они отличаются от базовых методов.
 - Разобраться в meta-learner стратегиях (S-, T-, X-learner) и условиях их применения.
 - Увидеть, как Casual Impact использует байесовские структурные временные ряды для оценки эффектов.
 
-## Session materials
-- [Lecture notebook](lecture.ipynb)
+## Материалы
+- [Лекция](lecture.ipynb)
 - Папка [data](data/) с примерами для повторения.
 
-## References
+## Источники
 ### Основные источники
 1. [Doubly-robust Estimator](https://matheusfacure.github.io/python-causality-handbook/12-Doubly-Robust-Estimation.html)
 2. [Plug-and-Play Estimator](https://matheusfacure.github.io/python-causality-handbook/20-Plug-and-Play-Estimators.html)
