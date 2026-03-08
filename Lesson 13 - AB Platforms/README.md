@@ -9,7 +9,7 @@
 
 ## План (временно)
 
-* Обзор A/B платформ (что это и какие проблелмы решает)
+* Обзор A/B платформ (что это и какие проблемы решает)
 * System Design A/B платформ (смотрим на типовую архитектуру платформ)
 * Параллельность тестов:
    * Слоирование
@@ -23,8 +23,8 @@
 1. [System Design A/B платформы](https://www.youtube.com/watch?app=desktop&v=YlIQ9GcRYXk)
 2. [Высоконагруженная платформа A/B-тестов от Avito](https://habr.com/ru/companies/ozontech/articles/689052/)
 3. [Многослойная система A/B платформ](https://static.googleusercontent.com/media/research.google.com/en/us/pubs/archive/36500.pdf)
+4.[ О необходимости проверки hash-функций](https://medium.com/@thisisflea/a-good-hash-is-hard-to-find-6edbbf6a78b0)
 
 ### Дополнительные материалы
 
 1. [Автоматизация A/B-экспериментирования с LLM](https://habr.com/ru/articles/953334/)
-2. [Рисовалка архитектуры](https://app.eraser.io/workspace/0OErVHusCVb2ukk3i5Qo)
