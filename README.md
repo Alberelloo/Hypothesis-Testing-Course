@@ -44,11 +44,7 @@
 | № | Тема | Объём |
 |---|---|---|
 | 1 | Тестирование в оффлайн ( [1](https://habr.com/ru/companies/ru_mts/articles/648063/), [2](https://www.youtube.com/watch?v=OZ1Ywpm4kIY), [3](https://www.youtube.com/watch?v=jC20dtKoUGU&t=1811s), [4](https://www.amazon.science/blog/a-first-of-its-kind-experiment-to-measure-the-impact-of-out-of-home-advertising) ) | 60 минут |
-| 2 | Оценка финансового эффекта эксперимента | 20–90 минут |
-| 3 | Interleaving ( [1](https://lms.matemarketing.ru/content/talk/617), [2](https://airbnb.tech/data/beyond-a-b-test-speeding-up-airbnb-search-ranking-experimentation-through-interleaving/), [3](https://sease.io/2020/05/online-testing-for-learning-to-rank-interleaving.html), [4](https://eprints.gla.ac.uk/108076/1/108076.pdf) ) | 20–40 минут |
-| 4 | Uplift моделирование ( [1](https://habr.com/ru/companies/ru_mts/articles/485980/), [2](https://habr.com/ru/companies/glowbyte/articles/686398/), [3](https://causalml.readthedocs.io/en/latest/methodology.html#tree-based-algorithms) ) | 60–90 минут |
-
-## Дополнительные материалы
-- [E-value](https://arxiv.org/pdf/2410.23614)
-- [Современные проблемы A/B тестирования](https://arxiv.org/pdf/2212.11366)
-- [Сетевые эффекты в Meta](https://medium.com/@AnalyticsAtMeta/how-meta-tests-products-with-strong-network-effects-96003a056c2c)
+| 2 | Interleaving ( [1](https://lms.matemarketing.ru/content/talk/617), [2](https://airbnb.tech/data/beyond-a-b-test-speeding-up-airbnb-search-ranking-experimentation-through-interleaving/), [3](https://sease.io/2020/05/online-testing-for-learning-to-rank-interleaving.html), [4](https://eprints.gla.ac.uk/108076/1/108076.pdf) ) | 20–40 минут |
+| 3 | Uplift моделирование ( [1](https://habr.com/ru/companies/ru_mts/articles/485980/), [2](https://habr.com/ru/companies/glowbyte/articles/686398/), [3](https://causalml.readthedocs.io/en/latest/methodology.html#tree-based-algorithms) ) | 60–90 минут |
+| 4 | Современные проблемы A/B тестирования ( [1](https://arxiv.org/pdf/2212.11366) ) | 30-40 минут |
+| 5 | Сетевые эффекты ( [1](https://medium.com/@AnalyticsAtMeta/how-meta-tests-products-with-strong-network-effects-96003a056c2c) ) | ??? |
