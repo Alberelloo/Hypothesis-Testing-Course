@@ -23,4 +23,4 @@
 4. [Rajen D. Shah "Modern Statistical Methods" стр. 53](https://www.statslab.cam.ac.uk/~rds37/teaching/modern_stat_methods/notes_MSM.pdf) - понятное объяснение замкнутых процедур
 
 ### Дополнительные материалы
-- Дополнительных материалов нет.
+- [Доступное видео с объяснением ключевой концепции](https://youtu.be/cXfqCcVxy4E?is=VlUsJOTyVnV2ye_6)
