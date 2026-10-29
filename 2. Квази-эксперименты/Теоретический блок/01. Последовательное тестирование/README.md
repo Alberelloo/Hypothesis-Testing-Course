@@ -1,4 +1,6 @@
-# Занятие 01 — Последовательное тестирование (Sequential Testing)
+# 2.01. Последовательное тестирование (Sequential Testing)
+
+> **Модуль:** Квази-эксперименты · **Мини-блок:** Альтернатива A/B тестам · **Время:** 1.5 ч · **Статус:** ✅ готово
 
 ## Обзор
 Последовательное тестирование позволяет останавливать эксперименты в любой момент без роста уровня ложных срабатываний. Урок объясняет проблему подглядывания, знакомит с классическими и современными методами (SPRT, mSPRT, AVI, GST) и сравнивает их с фиксированным горизонтом.
@@ -25,8 +27,8 @@
 10. [Сравнение последовательных методов](https://engineering.atspotify.com/2023/03/choosing-sequential-testing-framework-comparisons-and-discussions)
 
 ### Дополнительные материалы
-- [Fixed-Power Design от Spotify](https://arxiv.org/abs/2405.03487)
-- [YEAST от Zalando](https://arxiv.org/pdf/2406.16523v1)
-- [Corrected-alpha Approach](https://arxiv.org/pdf/1905.10493)
-- [Sequential Analysis: Hypothesis Testing and Changepoint Detection](https://www.amazon.com/Sequential-Analysis-Hypothesis-Changepoint-Probability/dp/1439838208)
-- [Sequential Experimentation in Clinical Trials](https://www.amazon.com/Sequential-Experimentation-Clinical-Trials-Statistics/dp/1461461138)
+1. [Fixed-Power Design от Spotify](https://arxiv.org/abs/2405.03487)
+2. [YEAST от Zalando](https://arxiv.org/pdf/2406.16523v1)
+3. [Corrected-alpha Approach](https://arxiv.org/pdf/1905.10493)
+4. [Sequential Analysis: Hypothesis Testing and Changepoint Detection](https://www.amazon.com/Sequential-Analysis-Hypothesis-Changepoint-Probability/dp/1439838208)
+5. [Sequential Experimentation in Clinical Trials](https://www.amazon.com/Sequential-Experimentation-Clinical-Trials-Statistics/dp/1461461138)

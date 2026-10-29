@@ -1,9 +1,11 @@
-# Занятие 05 — Многорукие бандиты (MAB)
+# 2.05. Многорукие бандиты (MAB)
+
+> **Модуль:** Квази-эксперименты · **Мини-блок:** Альтернатива A/B тестам · **Время:** 1.5 ч · **Статус:** ✅ готово
 
 ## Обзор
 Многорукие бандиты помогают балансировать между исследованием и эксплуатацией в условиях неопределённости. Урок вводит ключевые алгоритмы (ε-greedy, Softmax, UCB, Thompson Sampling) и обсуждает, когда они применяются для онлайн-оптимизации.
 
-## Образовательные цели
+## Цели занятия
 - Понять дилемму exploration vs exploitation и её влияние на принятие решений.
 - Освоить базовую механику алгоритмов многоруких бандитов и их отличия.
 - Увидеть примеры применения MAB в бизнес-практиках.
@@ -17,6 +19,6 @@
 2. [Многорукие бандиты в задаче ритейла](https://habr.com/ru/companies/X5Tech/articles/783390/)
 
 ### Дополнительные материалы
-- [Survey of multi-armed bandits](https://arxiv.org/pdf/1904.07272)
-- [Графический разбор и реализация MAB](https://github.com/raffg/multi_armed_bandit/tree/master)
-- [Bayesian AB test (пример реализации)](https://github.com/Arngren/bayesian-ab-test)
+1. [Survey of multi-armed bandits](https://arxiv.org/pdf/1904.07272)
+2. [Графический разбор и реализация MAB](https://github.com/raffg/multi_armed_bandit/tree/master)
+3. [Bayesian AB test (пример реализации)](https://github.com/Arngren/bayesian-ab-test)

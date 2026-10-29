@@ -1,4 +1,6 @@
-# Занятие 09 — Другие базовые оценщики
+# 2.09. Другие базовые оценщики
+
+> **Модуль:** Квази-эксперименты · **Мини-блок:** Причинно-следственность. Potential Outcome Framework · **Время:** 1.5 ч · **Статус:** ✅ готово
 
 ## Обзор
 Введение в потенциальные исходы охватывает необходимость причинно-следственного анализа, базовые понятия корреляции против причинности и набор классических методов оценки эффектов в наблюдательных данных.
@@ -32,9 +34,9 @@
 16. [Кейс causal inference в X5](https://habr.com/ru/companies/X5Tech/articles/768008/)
 
 ### Дополнительные материалы
-- [What If? — учебник по causal inference](https://miguelhernan.org/whatifbook)
-- [Causal Inference: The Mixtape](https://library.fa.ru/files/Imbens.pdf)
-- [Университетский курс по causal inference](https://www.cs.uic.edu/~elena/courses/fall19/cs594cil.html)
-- [Краткий курс по causal inference](https://www.youtube.com/watch?v=CfzO4IEMVUk&list=PLoazKTcS0Rzb6bb9L508cyJ1z-U9iWkA0)
-- [Мини-курс по causal inference](https://www.youtube.com/watch?v=zvrcyqcN9Wo&t=4243s)
-- [Causal ML Book](https://causalml-book.org/)
+1. [What If? — учебник по causal inference](https://miguelhernan.org/whatifbook)
+2. [Causal Inference: The Mixtape](https://library.fa.ru/files/Imbens.pdf)
+3. [Университетский курс по causal inference](https://www.cs.uic.edu/~elena/courses/fall19/cs594cil.html)
+4. [Краткий курс по causal inference](https://www.youtube.com/watch?v=CfzO4IEMVUk&list=PLoazKTcS0Rzb6bb9L508cyJ1z-U9iWkA0)
+5. [Мини-курс по causal inference](https://www.youtube.com/watch?v=zvrcyqcN9Wo&t=4243s)
+6. [Causal ML Book](https://causalml-book.org/)

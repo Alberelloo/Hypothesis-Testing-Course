@@ -1,4 +1,6 @@
-# Занятие 07 — Графические причинно-следственные модели (GCM)
+# 2.07. Графические причинно-следственные модели (GCM)
+
+> **Модуль:** Квази-эксперименты · **Мини-блок:** Причинно-следственность. Causal Discovery · **Время:** 1.5 ч · **Статус:** ✅ готово
 
 ## Обзор
 Урок знакомит с графовыми моделями причинности: от описания процессов генерации данных до инструментов идентификации причинных эффектов. Разбираются Directed Acyclic Graphs, d-separation, do-оператор, критерии Backdoor/Frontdoor и способы проверки гипотез о структуре графа.
@@ -29,9 +31,9 @@
 14. [Опровержение DAG](https://www.pywhy.org/dowhy/main/example_notebooks/gcm_falsify_dag.html)
 
 ### Дополнительные материалы
-- [What If? — учебник по causal inference](https://miguelhernan.org/whatifbook)
-- [Causal Inference: The Mixtape](https://library.fa.ru/files/Imbens.pdf)
-- [Курс по causal inference](https://www.youtube.com/watch?v=CfzO4IEMVUk&list=PLoazKTcS0Rzb6bb9L508cyJ1z-U9iWkA0)
-- [Мини-курс по причинно-следственности](https://github.com/DataForScience/Causality?tab=readme-ov-file)
-- [The Effect Book](https://theeffectbook.net/index.html)
-- [DoWhy: примеры по GCM](https://www.pywhy.org/dowhy/main/example_notebooks/nb_index.html)
+1. [What If? — учебник по causal inference](https://miguelhernan.org/whatifbook)
+2. [Causal Inference: The Mixtape](https://library.fa.ru/files/Imbens.pdf)
+3. [Курс по causal inference](https://www.youtube.com/watch?v=CfzO4IEMVUk&list=PLoazKTcS0Rzb6bb9L508cyJ1z-U9iWkA0)
+4. [Мини-курс по причинно-следственности](https://github.com/DataForScience/Causality?tab=readme-ov-file)
+5. [The Effect Book](https://theeffectbook.net/index.html)
+6. [DoWhy: примеры по GCM](https://www.pywhy.org/dowhy/main/example_notebooks/nb_index.html)

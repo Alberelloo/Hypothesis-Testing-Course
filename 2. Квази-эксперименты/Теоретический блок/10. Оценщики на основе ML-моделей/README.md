@@ -1,4 +1,6 @@
-# Занятие 10 — Оценщики на основе ML-моделей
+# 2.10. Оценщики на основе ML-моделей
+
+> **Модуль:** Квази-эксперименты · **Мини-блок:** Причинно-следственность. Potential Outcome Framework · **Время:** 1.5 ч · **Статус:** ✅ готово
 
 ## Обзор
 Продолжение темы потенциальных исходов сосредоточено на применении методов машинного обучения для оценки причинных эффектов: от doubly-robust и plug-and-play оценок до Casual Impact.
@@ -21,9 +23,9 @@
 6. [Продвинутые методы causal inference](https://www.youtube.com/watch?v=Kx6W-Jq3OWE)
 
 ### Дополнительные материалы
-- [What If? — учебник по causal inference](https://miguelhernan.org/whatifbook)
-- [Causal Inference: The Mixtape](https://library.fa.ru/files/Imbens.pdf)
-- [Университетский курс по causal inference](https://www.cs.uic.edu/~elena/courses/fall19/cs594cil.html)
-- [Краткий курс по causal inference](https://www.youtube.com/watch?v=CfzO4IEMVUk&list=PLoazKTcS0Rzb6bb9L508cyJ1z-U9iWkA0)
-- [Мини-курс по causal inference](https://www.youtube.com/watch?v=zvrcyqcN9Wo&t=4243s)
-- [Causal ML Book](https://causalml-book.org/)
+1. [What If? — учебник по causal inference](https://miguelhernan.org/whatifbook)
+2. [Causal Inference: The Mixtape](https://library.fa.ru/files/Imbens.pdf)
+3. [Университетский курс по causal inference](https://www.cs.uic.edu/~elena/courses/fall19/cs594cil.html)
+4. [Краткий курс по causal inference](https://www.youtube.com/watch?v=CfzO4IEMVUk&list=PLoazKTcS0Rzb6bb9L508cyJ1z-U9iWkA0)
+5. [Мини-курс по causal inference](https://www.youtube.com/watch?v=zvrcyqcN9Wo&t=4243s)
+6. [Causal ML Book](https://causalml-book.org/)
