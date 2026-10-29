@@ -1,4 +1,6 @@
-# Занятие 01 — Statistics in Python & Bootstrap
+# 1.01. Статистика в Python. Бутстрап
+
+> **Модуль:** A/B тестирование · **Мини-блок:** Повторение статистики и Python · **Время:** 1.5 ч · **Статус:** ✅ готово
 
 ## Обзор
 Занятие знакомит с экосистемой Python для прикладной статистики и последовательно демонстрирует технику бутстрепа на практических примерах. Материал построен вокруг работы с данными, визуализации распределений и анализа устойчивости оценок с помощью различных вариантов бутстрепа.
@@ -12,11 +14,11 @@
 
 ## Источники
 ### Основные источники
-- [Самая базовая статистика на Python](https://www.youtube.com/watch?v=S3WAjnBC6CI&list=PLQJ7ptkRY-xbHLLI66KdscKp_FJt0FsIi)
-- [Бутстрап часть 1](https://www.youtube.com/watch?v=wIPq_OoYcjc)
-- [Бутстрап часть 2](https://www.youtube.com/watch?v=1cJzSioPAjM)
-- [Монте-Карло на Python](https://www.youtube.com/watch?v=GV0FTiO9Z2w&list=PLQJ7ptkRY-xbHLLI66KdscKp_FJt0FsIi&index=4)
-- [Bootstrap для A/B](https://habr.com/ru/companies/X5Tech/articles/679842/)
+1. [Самая базовая статистика на Python](https://www.youtube.com/watch?v=S3WAjnBC6CI&list=PLQJ7ptkRY-xbHLLI66KdscKp_FJt0FsIi)
+2. [Бутстрап часть 1](https://www.youtube.com/watch?v=wIPq_OoYcjc)
+3. [Бутстрап часть 2](https://www.youtube.com/watch?v=1cJzSioPAjM)
+4. [Монте-Карло на Python](https://www.youtube.com/watch?v=GV0FTiO9Z2w&list=PLQJ7ptkRY-xbHLLI66KdscKp_FJt0FsIi&index=4)
+5. [Bootstrap для A/B](https://habr.com/ru/companies/X5Tech/articles/679842/)
 
 ### Дополнительные материалы
-- [Разборы вариантов Bootstrap](https://www.hse.ru/mirror/pubs/share/200205069)
+1. [Разборы вариантов Bootstrap](https://www.hse.ru/mirror/pubs/share/200205069)

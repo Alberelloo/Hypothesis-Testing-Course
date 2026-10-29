@@ -1,4 +1,6 @@
-# Занятие 04 — Байесовские AB тесты
+# 2.04. Байесовские A/B тесты
+
+> **Модуль:** Квази-эксперименты · **Мини-блок:** Альтернатива A/B тестам · **Время:** 1.5 ч · **Статус:** ✅ готово
 
 ## Обзор
 Занятие сопоставляет частотный и байесовский подходы к статистике, показывает, как интерпретация результатов меняется в байесовской парадигме, и демонстрирует применение PyMC для практического A/B тестирования.
@@ -25,19 +27,19 @@
 10. [Байесовский подход к A/B тестированию](https://habr.com/ru/companies/glowbyte/articles/732024/)
 
 ### Дополнительные материалы
-- [История статистики до 1750](https://www.amazon.com/History-Probability-Statistics-Applications-before/dp/0471471291)
-- [История статистики с 1750 до 1930](https://www.amazon.com/History-Mathematical-Statistics-Wiley-Probability/dp/0471179124)
-- [MCMC](https://ru.wikipedia.org/wiki/Марковская_цепь_Монте-Карло)
-- [Методы MCMC](https://m-clark.github.io/docs/ld_mcmc/)
-- [Variational Inference](https://ermongroup.github.io/cs228-notes/inference/variational/)
-- [Метод Лапласа](https://en.wikipedia.org/wiki/Laplace%27s_method)
-- [Вывод формул для байесовского A/B](https://www.evanmiller.org/bayesian-ab-testing.html)
-- [Практический обзор байесовского A/B](https://arxiv.org/pdf/2307.14628)
-- [Bayesian A/B testing in PyMC3](https://towardsdatascience.com/bayesian-a-b-testing-in-pymc3-54dceb87af74/)
-- [Байесовский A/B через регрессии](https://matteocourthoud.github.io/post/bayesian_ab_test/)
-- [Мифы о байесовском A/B](https://habr.com/ru/companies/X5Tech/articles/900032/)
-- [Bayesian A/B/C testing](https://www.researchgate.net/publication/335340064_Bayesian_ABC_testing)
-- [Bayesian A/B testing. Part I — Conversions](https://towardsdatascience.com/bayesian-ab-testing-part-i-conversions-ac2635f878ec/)
-- [Bayesian A/B testing. Part II — Revenue](https://towardsdatascience.com/bayesian-ab-testing-part-ii-revenue-1fbcf04f96cd/)
-- [Bayesian A/B testing. Part III — Test duration](https://towardsdatascience.com/bayesian-ab-testing-part-iii-test-duration-f2305215009c/)
-- [Bayesian A/B testing. Part IV — Choosing a prior](https://towardsdatascience.com/bayesian-ab-testing-part-iv-choosing-a-prior-5a4fe3223bfd/)
+1. [История статистики до 1750](https://www.amazon.com/History-Probability-Statistics-Applications-before/dp/0471471291)
+2. [История статистики с 1750 до 1930](https://www.amazon.com/History-Mathematical-Statistics-Wiley-Probability/dp/0471179124)
+3. [MCMC](https://ru.wikipedia.org/wiki/Марковская_цепь_Монте-Карло)
+4. [Методы MCMC](https://m-clark.github.io/docs/ld_mcmc/)
+5. [Variational Inference](https://ermongroup.github.io/cs228-notes/inference/variational/)
+6. [Метод Лапласа](https://en.wikipedia.org/wiki/Laplace%27s_method)
+7. [Вывод формул для байесовского A/B](https://www.evanmiller.org/bayesian-ab-testing.html)
+8. [Практический обзор байесовского A/B](https://arxiv.org/pdf/2307.14628)
+9. [Bayesian A/B testing in PyMC3](https://towardsdatascience.com/bayesian-a-b-testing-in-pymc3-54dceb87af74/)
+10. [Байесовский A/B через регрессии](https://matteocourthoud.github.io/post/bayesian_ab_test/)
+11. [Мифы о байесовском A/B](https://habr.com/ru/companies/X5Tech/articles/900032/)
+12. [Bayesian A/B/C testing](https://www.researchgate.net/publication/335340064_Bayesian_ABC_testing)
+13. [Bayesian A/B testing. Part I — Conversions](https://towardsdatascience.com/bayesian-ab-testing-part-i-conversions-ac2635f878ec/)
+14. [Bayesian A/B testing. Part II — Revenue](https://towardsdatascience.com/bayesian-ab-testing-part-ii-revenue-1fbcf04f96cd/)
+15. [Bayesian A/B testing. Part III — Test duration](https://towardsdatascience.com/bayesian-ab-testing-part-iii-test-duration-f2305215009c/)
+16. [Bayesian A/B testing. Part IV — Choosing a prior](https://towardsdatascience.com/bayesian-ab-testing-part-iv-choosing-a-prior-5a4fe3223bfd/)
