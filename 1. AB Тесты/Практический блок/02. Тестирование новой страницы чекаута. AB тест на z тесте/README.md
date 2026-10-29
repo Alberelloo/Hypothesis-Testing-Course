@@ -26,4 +26,4 @@
 6. Kohavi, Tang, Xu — *Trustworthy Online Controlled Experiments: A Practical Guide to A/B Testing* (Cambridge University Press, 2020), глава 21 о Sample Ratio Mismatch.
 
 ### Дополнительные материалы
-1. Исходный семинар, на основе которого сделана практика: [Lesson 02 - AB Testing Basics/seminar.ipynb](<../../../Lesson 02 - AB Testing Basics/seminar.ipynb>) (ячейки 46–62).
+Дополнительных материалов нет.
