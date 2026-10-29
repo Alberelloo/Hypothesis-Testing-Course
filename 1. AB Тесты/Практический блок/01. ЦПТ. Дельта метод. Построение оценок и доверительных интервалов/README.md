@@ -25,4 +25,4 @@
 6. [Проверка валидности критерия (X5 Tech)](https://habr.com/ru/companies/X5Tech/articles/706388/)
 
 ### Дополнительные материалы
-1. Исходный семинар, на основе которого сделана практика: [Lesson 02 - AB Testing Basics/seminar.ipynb](<../../../Lesson 02 - AB Testing Basics/seminar.ipynb>) (ячейки 0–45).
+Дополнительных материалов нет.
