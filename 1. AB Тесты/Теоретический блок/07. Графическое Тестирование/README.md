@@ -4,7 +4,7 @@
 
 ## Обзор
 
-Занятие посвящено графическому подходу к множественному тестированию гипотез, предложенному Bretz et al. (2009). Рассматривается представление семейств гипотез в виде направленных взвешенных графов, алгоритм последовательного перераспределения уровня значимости и его связь с замкнутой процедурой тестирования. На примерах процедур Бонферрони, Холма, гейткипинга и иерархических семейств разбирается пошаговая работа алгоритма. Вторая часть занятия охватывает расширения графического подхода для контроля обобщённых метрик ошибок (k‑FWER и FDP) согласно Robertson et al. (2020), а также применение метода в клинических исследованиях и A/B‑тестах со сложной структурой гипотез.
+Занятие посвящено графическому подходу к множественному тестированию гипотез, предложенному Bretz et al. (2009). Рассматривается представление семейств гипотез в виде направленных взвешенных графов, алгоритм последовательного перераспределения уровня значимости и его связь с замкнутой процедурой тестирования. На примерах процедур Бонферрони, Холма, фиксированной последовательности и гейткипинга разбирается пошаговая работа алгоритма. Вторая часть занятия охватывает расширения графического подхода для контроля обобщённых метрик ошибок (k‑FWER и FDP) согласно Robertson et al. (2020), а также применение метода в клинических исследованиях и A/B‑тестах со сложной структурой гипотез.
 
 ## Цели занятия
 
@@ -19,10 +19,10 @@
 
 ## Источники
 ### Основные источники
-1. [Frank Bretz, Willi Maurer, Werner Brannath and Martin Posch "A graphical approach to sequentially rejective multiple test procedures"](https://www.sci-hub.ru/10.1002/sim.3495) - первоначальная статья о графическом тестировании
-2. [D. S. Robertson, J. M. S. Wason and F. Bretz "Graphical approaches for the control of generalised error rates"](https://arxiv.org/abs/2004.01759) - дальнейшее развитии первой статьи
-3. [Ruth Marcus, Eric Peritz, K. R. Gabriel "On Closed Testing Procedure"](https://www.jstor.org/stable/2335748) - первоначальная статья о замкнутых статистических процедурах
+1. [Frank Bretz, Willi Maurer, Werner Brannath and Martin Posch "A graphical approach to sequentially rejective multiple test procedures"](https://doi.org/10.1002/sim.3495) - первоначальная статья о графическом тестировании
+2. [D. S. Robertson, J. M. S. Wason and F. Bretz "Graphical approaches for the control of generalised error rates"](https://arxiv.org/abs/2004.01759) - дальнейшее развитие первой статьи
+3. [Ruth Marcus, Eric Peritz, K. R. Gabriel "On closed testing procedures with special reference to ordered analysis of variance"](https://www.jstor.org/stable/2335748) - первоначальная статья о замкнутых статистических процедурах
 4. [Rajen D. Shah "Modern Statistical Methods" стр. 53](https://www.statslab.cam.ac.uk/~rds37/teaching/modern_stat_methods/notes_MSM.pdf) - понятное объяснение замкнутых процедур
 
 ### Дополнительные материалы
-1. [Доступное видео с объяснением ключевой концепции](https://youtu.be/cXfqCcVxy4E?is=VlUsJOTyVnV2ye_6)
+1. [Доступное видео с объяснением ключевой концепции](https://youtu.be/cXfqCcVxy4E)
