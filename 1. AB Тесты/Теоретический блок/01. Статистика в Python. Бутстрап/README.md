@@ -1,4 +1,4 @@
-# 1.01. Статистика в Python. Бутстрап
+# 1.01. Статистика в Python. Бутстреп
 
 > **Модуль:** A/B тестирование · **Мини-блок:** Повторение статистики и Python · **Время:** 1.5 ч · **Статус:** ✅ готово
 
@@ -15,8 +15,8 @@
 ## Источники
 ### Основные источники
 1. [Самая базовая статистика на Python](https://www.youtube.com/watch?v=S3WAjnBC6CI&list=PLQJ7ptkRY-xbHLLI66KdscKp_FJt0FsIi)
-2. [Бутстрап часть 1](https://www.youtube.com/watch?v=wIPq_OoYcjc)
-3. [Бутстрап часть 2](https://www.youtube.com/watch?v=1cJzSioPAjM)
+2. [Бутстреп часть 1](https://www.youtube.com/watch?v=wIPq_OoYcjc)
+3. [Бутстреп часть 2](https://www.youtube.com/watch?v=1cJzSioPAjM)
 4. [Монте-Карло на Python](https://www.youtube.com/watch?v=GV0FTiO9Z2w&list=PLQJ7ptkRY-xbHLLI66KdscKp_FJt0FsIi&index=4)
 5. [Bootstrap для A/B](https://habr.com/ru/companies/X5Tech/articles/679842/)
 
