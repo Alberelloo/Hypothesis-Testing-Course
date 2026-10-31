@@ -15,7 +15,7 @@ Switchback тесты помогают корректно измерять эф�
 
 ## Источники
 ### Основные источники
-1. [Switchback Experiments at Scale](https://arxiv.org/pdf/2009.00148)
+1. [Design and Analysis of Switchback Experiments](https://arxiv.org/pdf/2009.00148)
 2. [Кейс Delivery Club](https://habr.com/ru/companies/deliveryclub/articles/670762/)
 3. [Кейс Citymobil. Часть 1](https://habr.com/ru/companies/citymobil/articles/560426/)
 4. [Кейс Citymobil. Часть 2](https://habr.com/ru/companies/citymobil/articles/575218/)
