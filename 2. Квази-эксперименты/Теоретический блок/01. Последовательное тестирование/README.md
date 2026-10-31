@@ -11,7 +11,7 @@
 - Сравнивать sequential-подходы между собой и со стандартными fixed-horizon A/B тестами.
 
 ## Материалы
-- [Лекции](lecture.ipynb)
+- [Лекция](lecture.ipynb)
 
 ## Источники
 ### Основные источники
@@ -32,3 +32,5 @@
 3. [Corrected-alpha Approach](https://arxiv.org/pdf/1905.10493)
 4. [Sequential Analysis: Hypothesis Testing and Changepoint Detection](https://www.amazon.com/Sequential-Analysis-Hypothesis-Changepoint-Probability/dp/1439838208)
 5. [Sequential Experimentation in Clinical Trials](https://www.amazon.com/Sequential-Experimentation-Clinical-Trials-Statistics/dp/1461461138)
+6. [Wallis A. The Statistical Research Group, 1942–1945](https://doi.org/10.1080/01621459.1980.10477469)
+7. [Howard S. et al. Time-uniform, nonparametric, nonasymptotic confidence sequences](https://arxiv.org/abs/1810.08240)
