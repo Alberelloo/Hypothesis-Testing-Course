@@ -3,11 +3,11 @@
 > **Модуль:** Квази-эксперименты · **Мини-блок:** Причинно-следственность. Potential Outcome Framework · **Время:** 1.5 ч · **Статус:** ✅ готово
 
 ## Обзор
-Продолжение темы потенциальных исходов сосредоточено на применении методов машинного обучения для оценки причинных эффектов: от doubly-robust и plug-and-play оценок до Casual Impact.
+Продолжение темы потенциальных исходов сосредоточено на применении методов машинного обучения для оценки причинных эффектов: от doubly-robust и plug-and-play оценок до Causal Impact.
 
 ## Цели занятия
 - Освоить принципы ML-оценок в causal inference и понять, чем они отличаются от базовых методов.
-- Увидеть, как Casual Impact использует байесовские структурные временные ряды для оценки эффектов.
+- Увидеть, как Causal Impact использует байесовские структурные временные ряды для оценки эффектов.
 
 ## Материалы
 - [Лекция](lecture.ipynb)
@@ -18,8 +18,8 @@
 1. [Doubly-robust Estimator](https://matheusfacure.github.io/python-causality-handbook/12-Doubly-Robust-Estimation.html)
 2. [Plug-and-Play Estimator](https://matheusfacure.github.io/python-causality-handbook/20-Plug-and-Play-Estimators.html)
 3. [Inferring causal impact using Bayesian structural time series](https://projecteuclid.org/journals/annals-of-applied-statistics/volume-9/issue-1/Inferring-causal-impact-using-Bayesian-structural-time-series-models/10.1214/14-AOAS788.full)
-4. [Casual Impact: видеоразбор](https://www.youtube.com/watch?v=0_bl0A-cXcY)
-5. [Casual Impact: пример применения](https://habr.com/ru/articles/832466/)
+4. [Causal Impact: видеоразбор](https://www.youtube.com/watch?v=0_bl0A-cXcY)
+5. [Causal Impact: пример применения](https://habr.com/ru/articles/832466/)
 6. [Продвинутые методы causal inference](https://www.youtube.com/watch?v=Kx6W-Jq3OWE)
 
 ### Дополнительные материалы
