@@ -40,3 +40,6 @@
 4. [Краткий курс по causal inference](https://www.youtube.com/watch?v=CfzO4IEMVUk&list=PLoazKTcS0Rzb6bb9L508cyJ1z-U9iWkA0)
 5. [Мини-курс по causal inference](https://www.youtube.com/watch?v=zvrcyqcN9Wo&t=4243s)
 6. [Causal ML Book](https://causalml-book.org/)
+5. [King, Nielsen (2019): Why Propensity Scores Should Not Be Used for Matching](https://www.cambridge.org/core/journals/political-analysis/article/abs/why-propensity-scores-should-not-be-used-for-matching/94DDE7ED8E2A796B693096EB714BE68B)
+6. [Abadie, Imbens (2008): On the Failure of the Bootstrap for Matching Estimators](https://www.econometricsociety.org/publications/econometrica/2008/11/01/On-the-Failure-of-the-Bootstrap-for-Matching-Estimators)
+7. [Bertrand, Duflo, Mullainathan (2004): How Much Should We Trust Differences-in-Differences Estimates?](https://www.nber.org/papers/w8841)
