@@ -30,3 +30,7 @@
 1. [Курс по мета-анализу](https://www.coursera.org/learn/systematic-review)
 2. [Учебник по мета-анализу](https://link.springer.com/book/10.1007/978-981-15-5032-4)
 3. [Оценка общего эффекта от экспериментов от Airbnb](https://dl.acm.org/doi/epdf/10.1145/3219819.3219905)
+2. [Goeman, Rosenblatt, Nichols (2019): The harmonic mean p-value](https://pmc.ncbi.nlm.nih.gov/articles/PMC6876242)
+3. [Vovk, Wang (2020): Combining p-values via averaging](https://arxiv.org/abs/1212.4966)
+4. [Bradburn et al. (2007): Much ado about nothing](https://www.bibsonomy.org/bibtex/2e637e4988f9f47ea54c20116f8602340/jepcastel)
+5. [Whitlock (2005): the weighted Z-method](https://scilit.com/publications/ab05b8b6dc9402262c9851a832654a7f)
