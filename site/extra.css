@@ -1,0 +1,38 @@
+/* Шире рабочая область: на главной в таблице много колонок */
+.md-grid {
+  max-width: 85rem;
+}
+
+/* Таблицы на главной и в модулях: на всю ширину, с переносами */
+.md-typeset table:not([class]) {
+  display: table;
+  width: 100%;
+  font-size: .8rem;
+}
+
+.md-typeset table:not([class]) td,
+.md-typeset table:not([class]) th {
+  vertical-align: top;
+}
+
+/* Ноутбуки: графики всегда на белом фоне, чтобы тёмная тема не ломала подписи */
+.jupyter-wrapper .jp-RenderedImage img,
+.jupyter-wrapper .jp-OutputArea-output img {
+  background: #fff;
+  border-radius: 4px;
+  max-width: 100%;
+}
+
+/* Ноутбуки: код и вывод в тон темы */
+.jupyter-wrapper .jp-Cell {
+  margin-bottom: .6rem;
+}
+
+[data-md-color-scheme="slate"] .jupyter-wrapper .jp-RenderedText pre {
+  color: var(--md-code-fg-color);
+}
+
+/* Сворачиваемые решения */
+.md-typeset details summary {
+  cursor: pointer;
+}
