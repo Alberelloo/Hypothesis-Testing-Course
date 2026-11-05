@@ -1,3 +1,21 @@
+# Локальные рабочие деревья агентов (Claude Code и др.)
+.claude/
+
+# Сборка сайта
 site_build/
 site_out/
 .cache/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ОС и редакторы
+Thumbs.db
+desktop.ini
+.DS_Store
