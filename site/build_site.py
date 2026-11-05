@@ -5,6 +5,8 @@
     python site/build_site.py
     mkdocs build -f site_build/mkdocs.yml -d site_out
 
+Структура репозитория: два курса (`1. …`, `2. …`), внутри каждого — плоский список занятий.
+Папка занятия содержит `lecture.ipynb` (лекция) или `practice.ipynb` (семинар) и `README.md`.
 Ничего в репозитории скрипт не меняет: ноутбуки копируются и обрабатываются в `site_build/docs`.
 """
 import json
@@ -22,9 +24,8 @@ SITE_URL = 'https://alberelloo.github.io/Hypothesis-Testing-Course/'
 GITHUB_TREE = f'https://github.com/{REPO}/tree/main/'
 GITHUB_BLOB = f'https://github.com/{REPO}/blob/main/'
 COLAB = f'https://colab.research.google.com/github/{REPO}/blob/main/'
-THEORY, PRACTICE = 'Теоретический блок', 'Практический блок'
-MODULE_NAMES = {}
-MODULE_FOLDERS = {}
+COURSE_NAMES = {}
+COURSE_FOLDERS = {}
 
 
 def read(path):
@@ -37,58 +38,63 @@ def write(path, text):
 
 
 class Lesson:
-    def __init__(self, module_no, module_dir, kind, folder):
-        self.module_no, self.kind, self.folder = module_no, kind, folder
-        number = int(folder.name.split('.')[0])
+    def __init__(self, course_no, course_dir, kind, number, folder):
+        self.course_no, self.kind, self.folder = course_no, kind, folder
         self.number = number
-        self.id = f'{module_no}.{number:02d}' if kind == 'theory' else f'{module_no}.П{number}'
+        self.id = f'{course_no}.{number:02d}' if kind == 'theory' else f'{course_no}.П{number}'
         self.slug = f'l{number:02d}' if kind == 'theory' else f'p{number}'
         self.notebook = folder / ('lecture.ipynb' if kind == 'theory' else 'practice.ipynb')
         self.readme = folder / 'README.md'
         self.rel = folder.relative_to(ROOT).as_posix()
-        self.page = f'module-{module_no}/{self.slug}.ipynb'
+        self.page = f'course-{course_no}/{self.slug}.ipynb'
         title_line = read(self.readme).split('\n')[0] if self.readme.exists() else ''
-        self.title = re.sub(r'^#\s*\d\.(?:П)?\d+\.\s*', '', title_line) or folder.name.split('. ', 1)[-1]
+        self.title = re.sub(r'^#\s*(?:\d+\.|П\d+\.)\s*', '', title_line) or folder.name.split('. ', 1)[-1]
 
 
 def collect():
-    modules = []
-    for module_dir in sorted(p for p in ROOT.iterdir() if p.is_dir() and re.match(r'^\d\. ', p.name)):
-        module_no = int(module_dir.name[0])
-        MODULE_FOLDERS[module_no] = module_dir.name
-        module_title = read(module_dir / 'README.md').split('\n')[0]
-        MODULE_NAMES[module_no] = re.sub(r'^#\s*\d+\.\s*', '', module_title) or module_dir.name.split('. ', 1)[1]
+    courses = []
+    for course_dir in sorted(p for p in ROOT.iterdir() if p.is_dir() and re.match(r'^\d\. ', p.name)):
+        course_no = int(course_dir.name[0])
+        COURSE_FOLDERS[course_no] = course_dir.name
+        course_title = read(course_dir / 'README.md').split('\n')[0]
+        COURSE_NAMES[course_no] = re.sub(r'^#\s*\d+\.\s*', '', course_title) or course_dir.name.split('. ', 1)[1]
         lessons = []
-        for kind, block in (('theory', THEORY), ('practice', PRACTICE)):
-            if (module_dir / block).exists():
-                for folder in sorted(p for p in (module_dir / block).iterdir() if p.is_dir() and re.match(r'^\d+\. ', p.name)):
-                    lesson = Lesson(module_no, module_dir, kind, folder)
-                    if lesson.notebook.exists():
-                        lessons.append(lesson)
-        modules.append((module_no, module_dir, lessons))
-    return modules
+        for folder in sorted(course_dir.iterdir()):
+            if not folder.is_dir():
+                continue
+            m = re.match(r'^(\d+|П\d+)\. ', folder.name)
+            if not m:
+                continue
+            raw = m.group(1)
+            if raw.startswith('П'):
+                kind, number = 'practice', int(raw[1:])
+            else:
+                kind, number = 'theory', int(raw)
+            lesson = Lesson(course_no, course_dir, kind, number, folder)
+            if lesson.notebook.exists():
+                lessons.append(lesson)
+        courses.append((course_no, course_dir, lessons))
+    return courses
 
 
 def page_link(from_page, to_page):
-    """Относительная ссылка между страницами сайта (пути вида module-1/l01.ipynb)."""
+    """Относительная ссылка между страницами сайта (пути вида course-1/l01.ipynb)."""
     from_dir = Path(from_page).parent
-    rel = Path('..') / '..' if False else None
     import os
-    target = os.path.relpath(to_page, from_dir).replace('\\', '/')
-    return target
+    return os.path.relpath(to_page, from_dir).replace('\\', '/')
 
 
 def make_link_rewriter(lessons_by_path, modules, from_page):
-    """Заменяет ссылки на папки занятий и модулей (GitHub-ссылки и относительные) на ссылки внутри сайта."""
+    """Заменяет ссылки на папки занятий и курсов (GitHub-ссылки и относительные) на ссылки внутри сайта."""
     by_path = dict(lessons_by_path)
-    module_pages = {MODULE_FOLDERS[no]: f'module-{no}/index.md' for no, _, _ in modules}
+    course_pages = {COURSE_FOLDERS[no]: f'course-{no}/index.md' for no, _, _ in modules}
 
     def to_site(path_text):
         path = unquote(path_text).strip('/').replace('\\', '/')
         if path in by_path:
             return page_link(from_page, by_path[path].page)
-        if path in module_pages:
-            return page_link(from_page, module_pages[path])
+        if path in course_pages:
+            return page_link(from_page, course_pages[path])
         return None
 
     def rewrite(text):
@@ -138,8 +144,8 @@ def build_lesson(lesson, rewrite):
         cells[0]['source'] = [first] if first else ['']
     readme = read(lesson.readme) if lesson.readme.exists() else ''
     _, sections = split_sections(readme)
-    passport = next((l for l in readme.split('\n') if l.startswith('> **Модуль:**')), '')
-    has_overview = any(isinstance(c, dict) and c['cell_type'] == 'markdown' and '**Модуль:**' in ''.join(c['source']) for c in cells[:2])
+    passport = next((l for l in readme.split('\n') if l.startswith('> **Курс:**')), '')
+    has_overview = any(isinstance(c, dict) and c['cell_type'] == 'markdown' and '**Курс:**' in ''.join(c['source']) for c in cells[:2])
     header = [f'# {lesson.id}. {lesson.title}']
     if passport and not has_overview:
         header.append(passport)
@@ -195,13 +201,10 @@ def build_pages(modules):
     index = fix_anchors(id_links(index, 'index.md', by_id))
     index += f'\n\n---\n\nИсходники курса и обсуждение: [GitHub]({GITHUB_TREE.rsplit("/tree/", 1)[0]}).\n'
     write(DOCS / 'index.md', '---\nhide:\n  - navigation\n  - toc\n---\n\n' + index)
-    # модули
-    for module_no, module_dir, lessons in modules:
-        page = f'module-{module_no}/index.md'
-        text = read(module_dir / 'README.md')
-        # относительные ссылки в README модуля идут от папки модуля
-        text = re.sub(r'\(<((?:' + re.escape(THEORY) + '|' + re.escape(PRACTICE) + r')/[^>]+)>\)',
-                      lambda m: '(<' + module_dir.name + '/' + m.group(1) + '>)', text)
+    # курсы
+    for course_no, course_dir, lessons in modules:
+        page = f'course-{course_no}/index.md'
+        text = read(course_dir / 'README.md')
         text = make_link_rewriter(by_path, modules, page)(text)
         write(DOCS / page, text)
         for lesson in lessons:
@@ -210,17 +213,13 @@ def build_pages(modules):
 
 def build_config(modules):
     nav = ['  - Главная: index.md']
-    for module_no, module_dir, lessons in modules:
-        nav.append(f'  - "Модуль {module_no}. {MODULE_NAMES[module_no]}":')
-        nav.append(f'    - Обзор модуля: module-{module_no}/index.md')
-        for kind, label in (('theory', 'Теория'), ('practice', 'Практика')):
-            items = [l for l in lessons if l.kind == kind]
-            if items:
-                nav.append(f'    - {label}:')
-                for l in items:
-                    nav.append(f'      - "{l.id}. {l.title.replace(chr(34), chr(39))}": {l.page}')
+    for course_no, course_dir, lessons in modules:
+        nav.append(f'  - "Курс {course_no}. {COURSE_NAMES[course_no]}":')
+        nav.append(f'    - Обзор курса: course-{course_no}/index.md')
+        for l in lessons:
+            nav.append(f'    - "{l.id}. {l.title.replace(chr(34), chr(39))}": {l.page}')
     config = f'''site_name: Hypothesis Testing Course
-site_description: Курс по A/B тестированию, квази-экспериментам и причинному анализу
+site_description: Два курса — дизайн и анализ экспериментов, причинно-следственный анализ
 site_url: {SITE_URL}
 repo_url: https://github.com/{REPO}
 repo_name: {REPO}
